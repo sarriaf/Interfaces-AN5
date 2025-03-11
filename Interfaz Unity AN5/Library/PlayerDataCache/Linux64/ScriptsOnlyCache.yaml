@@ -1,0 +1,2129 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - ButtonPanel
+    - CartesianPositionSubscriber
+    - CartesianStateWriterNew
+    - ControlArticular
+    - DelayModeController
+    - ExitButton
+    - HingeJointAngleCalculator
+    - InverseKinematicsSubscriber
+    - JointPositionSubscriber
+    - JointStateWriter
+    - MGD_Node
+    - MGD_Subscriber
+    - Observador
+    - Ros2CommandSender
+    - RosSharp.HingeJointLimitsManager
+    - RosSharp.RosBridgeClient.JointStateReader
+    - RosSharp.RosBridgeClient.RosConnector
+    - RosSharp.Urdf.UrdfCollision
+    - RosSharp.Urdf.UrdfCollisions
+    - RosSharp.Urdf.UrdfInertial
+    - RosSharp.Urdf.UrdfJointFixed
+    - RosSharp.Urdf.UrdfJointRevolute
+    - RosSharp.Urdf.UrdfLink
+    - RosSharp.Urdf.UrdfPlugins
+    - RosSharp.Urdf.UrdfRobot
+    - RosSharp.Urdf.UrdfVisual
+    - RosSharp.Urdf.UrdfVisuals
+    - Sendtxt
+    - ToggleFullscreenButton
+    - recordPanel
+    Unity.AdaptivePerformance.Editor.dll:
+    - UnityEditor.AdaptivePerformance.Editor.AdaptivePerformanceGeneralSettingsPerBuildTarget
+    Unity.AdaptivePerformance.Simulator.Editor.dll:
+    - UnityEditor.AdaptivePerformance.Simulator.Editor.SimulatorProviderLoader
+    Unity.AdaptivePerformance.dll:
+    - UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings
+    - UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro:
+    - TMPro.TMP_ColorGradient
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_InputField
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
+    Unity.XR.Management.Editor.dll:
+    - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
+    Unity.XR.Management.dll:
+    - UnityEngine.XR.Management.XRGeneralSettings
+    - UnityEngine.XR.Management.XRManagerSettings
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
+    - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.RawImage
+    - UnityEngine.UI.RectMask2D
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
+    - UnityEngine.UI.VerticalLayoutGroup
+  serializedClasses:
+    Unity.TextMeshPro:
+    - TMPro.FaceInfo_Legacy
+    - TMPro.FontAssetCreationSettings
+    - TMPro.KerningTable
+    - TMPro.TMP_Character
+    - TMPro.TMP_FontFeatureTable
+    - TMPro.TMP_FontWeightPair
+    - TMPro.TMP_GlyphAdjustmentRecord
+    - TMPro.TMP_GlyphPairAdjustmentRecord
+    - TMPro.TMP_GlyphValueRecord
+    - TMPro.TMP_InputField/OnChangeEvent
+    - TMPro.TMP_InputField/SelectionEvent
+    - TMPro.TMP_InputField/SubmitEvent
+    - TMPro.TMP_InputField/TextSelectionEvent
+    - TMPro.TMP_InputField/TouchScreenKeyboardEvent
+    - TMPro.TMP_Sprite
+    - TMPro.TMP_SpriteCharacter
+    - TMPro.TMP_SpriteGlyph
+    - TMPro.TMP_Style
+    - TMPro.VertexGradient
+    UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
+    - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.RectOffset
+    UnityEngine.TextCoreFontEngineModule:
+    - UnityEngine.TextCore.FaceInfo
+    - UnityEngine.TextCore.Glyph
+    - UnityEngine.TextCore.GlyphMetrics
+    - UnityEngine.TextCore.GlyphRect
+    UnityEngine.UI:
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.FontData
+    - UnityEngine.UI.InputField/EndEditEvent
+    - UnityEngine.UI.InputField/OnChangeEvent
+    - UnityEngine.UI.InputField/SubmitEvent
+    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.ScrollRect/ScrollRectEvent
+    - UnityEngine.UI.Scrollbar/ScrollEvent
+    - UnityEngine.UI.Slider/SliderEvent
+    - UnityEngine.UI.SpriteState
+    - UnityEngine.UI.Toggle/ToggleEvent
+  methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: ToggleFullscreenButton
+    methodName: ToggleFullscreen
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanel
+    methodName: OpenCartesianPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: ExitButton
+    methodName: ExitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanel
+    methodName: OpenTXTPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanel
+    methodName: OpenJointPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanel
+    methodName: ToggleAutoMode
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanel
+    methodName: OpenRecordPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanel
+    methodName: ToggleManualMode
+  sceneClasses:
+    Assets/Scenes/SampleScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 59
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 504}
+    - Class: 114
+      Script: {instanceID: 1662}
+    - Class: 114
+      Script: {instanceID: 1664}
+    - Class: 114
+      Script: {instanceID: 1668}
+    - Class: 114
+      Script: {instanceID: 1728}
+    - Class: 114
+      Script: {instanceID: 1806}
+    - Class: 114
+      Script: {instanceID: 1902}
+    - Class: 114
+      Script: {instanceID: 2580}
+    - Class: 114
+      Script: {instanceID: 3196}
+    - Class: 114
+      Script: {instanceID: 3222}
+    - Class: 114
+      Script: {instanceID: 3286}
+    - Class: 114
+      Script: {instanceID: 3310}
+    - Class: 114
+      Script: {instanceID: 3494}
+    - Class: 114
+      Script: {instanceID: 3560}
+    - Class: 114
+      Script: {instanceID: 3862}
+    - Class: 114
+      Script: {instanceID: 3930}
+    - Class: 114
+      Script: {instanceID: 4096}
+    - Class: 114
+      Script: {instanceID: 4250}
+    - Class: 114
+      Script: {instanceID: 4796}
+    - Class: 114
+      Script: {instanceID: 4864}
+    - Class: 114
+      Script: {instanceID: 4900}
+    - Class: 114
+      Script: {instanceID: 5014}
+    - Class: 114
+      Script: {instanceID: 5204}
+    - Class: 114
+      Script: {instanceID: 5336}
+    - Class: 114
+      Script: {instanceID: 5354}
+    - Class: 114
+      Script: {instanceID: 5712}
+    - Class: 114
+      Script: {instanceID: 6050}
+    - Class: 114
+      Script: {instanceID: 6168}
+    - Class: 114
+      Script: {instanceID: 6458}
+    - Class: 114
+      Script: {instanceID: 6548}
+    - Class: 114
+      Script: {instanceID: 6690}
+    - Class: 114
+      Script: {instanceID: 6760}
+    - Class: 114
+      Script: {instanceID: 6770}
+    - Class: 114
+      Script: {instanceID: 6964}
+    - Class: 114
+      Script: {instanceID: 7304}
+    - Class: 114
+      Script: {instanceID: 7556}
+    - Class: 114
+      Script: {instanceID: 7682}
+    - Class: 114
+      Script: {instanceID: 7764}
+    - Class: 114
+      Script: {instanceID: 7772}
+    - Class: 114
+      Script: {instanceID: 7878}
+    - Class: 114
+      Script: {instanceID: 8250}
+    - Class: 114
+      Script: {instanceID: 8260}
+    - Class: 114
+      Script: {instanceID: 8434}
+    - Class: 114
+      Script: {instanceID: 8468}
+    - Class: 114
+      Script: {instanceID: 8470}
+    - Class: 114
+      Script: {instanceID: 8506}
+    - Class: 114
+      Script: {instanceID: 8656}
+    - Class: 114
+      Script: {instanceID: 8742}
+    - Class: 114
+      Script: {instanceID: 8834}
+    - Class: 114
+      Script: {instanceID: 9378}
+    - Class: 114
+      Script: {instanceID: 9540}
+    - Class: 114
+      Script: {instanceID: 9710}
+    - Class: 114
+      Script: {instanceID: 10110}
+    - Class: 114
+      Script: {instanceID: 10356}
+    - Class: 114
+      Script: {instanceID: 10626}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 138
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 53e329840e6d03aebec76623c3b054db
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: b5007673bbbdb9d12597a1d8201370f5
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: d41ab9b5ea92474f9c0a6937a0607ce1
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 67f2e533bbfe68206e21fd8cf233561c
+    assemblyName: UnityEngine.SpatialTracking
+    namespaceName: UnityEngine.SpatialTracking
+    className: TrackedPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: 1ab136900c0edaeeb49424c852595030
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: f235b66bbaad891803c9d777dfd67956
+    assemblyName: Unity.AdaptivePerformance
+    namespaceName: UnityEngine.AdaptivePerformance
+    className: AdaptiveLut
+  - hash:
+      serializedVersion: 2
+      Hash: 55060a7bf226ac385ce19ebd450f199f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UIElements
+    className: PanelRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: dd9dda1dfd39e605c49e72003342ef5d
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 08572d2d2d208bddc8347bd52d9c7d2e
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.RosBridgeClient
+    className: LaserScanVisualizerSpheres
+  - hash:
+      serializedVersion: 2
+      Hash: 40bdadcd1cc14ab9d74347f31c1d4dd2
+    assemblyName: UnityEngine.XR.LegacyInputHelpers
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: ArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: 28be742dfed98d22c3acbf7df788a6b1
+    assemblyName: Unity.AdaptivePerformance
+    namespaceName: UnityEngine.AdaptivePerformance
+    className: AdaptiveDecals
+  - hash:
+      serializedVersion: 2
+      Hash: 2fd7edfa263254f2b361397b376e93f7
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: HingeJointAngleCalculator
+  - hash:
+      serializedVersion: 2
+      Hash: 7e13ff7c879466f70e2f32bffc61985b
+    assemblyName: Unity.Robotics.ROSTCPConnector
+    namespaceName: Unity.Robotics.ROSTCPConnector.ROSGeometry
+    className: GeometryCompass
+  - hash:
+      serializedVersion: 2
+      Hash: f45600bcc886206dd55a3208474aad61
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollbarValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a3901985eb076c1c9b7562fca82ca3e0
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 8dff8e9853297d341afa0c11f9091b59
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 00bbd9db8634496d079d17711b2ff7c4
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: d0caa48b5fe6778ce3f0de7aec45c4e6
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: SkewTextExample
+  - hash:
+      serializedVersion: 2
+      Hash: 8703b6ae2b0eefd9dafbc44d8d333fb1
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: f778e23b6ff26b8de4721be0eb1fa240
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionStayMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 89e2f93ac259634cf81b44c25bc0fc9a
+    assemblyName: Unity.AdaptivePerformance
+    namespaceName: UnityEngine.AdaptivePerformance
+    className: AdaptiveShadowmapResolution
+  - hash:
+      serializedVersion: 2
+      Hash: f854af586011dd194574f89546642e29
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 11a492830b189fafb9ed2f7afa464c56
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: SimpleScript
+  - hash:
+      serializedVersion: 2
+      Hash: 6ac4f691f4318c32aad5418e83a3a975
+    assemblyName: Assembly-CSharp
+    namespaceName: ROS2
+    className: ROS2TalkerExample
+  - hash:
+      serializedVersion: 2
+      Hash: b1cbbd480794d924bc1e2d85c8a9ee07
+    assemblyName: Unity.Robotics.UrdfImporter
+    namespaceName: Unity.Robotics.UrdfImporter
+    className: UrdfJointPlanar
+  - hash:
+      serializedVersion: 2
+      Hash: b12640dfdb5966813e9dd838893e6c4a
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 0c6de72eaf8c1070da824268c4bfad9d
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: ad49e20f31ed572e586aa8bbaafb591b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDropMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 1bc6ff8d02d2d68019aa6a028f8d409d
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerUpMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 7e93247d600e115dac0cdd880de94e99
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 83cfda82082c233d96cc677c19f57e07
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnJointBreakMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 915cc9a00dab8d6626a70b6de6adc7ee
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.RosBridgeClient
+    className: JointStatePatcher
+  - hash:
+      serializedVersion: 2
+      Hash: 11abba3321547dd8c3db0c4c2447f54e
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.Urdf
+    className: UrdfJointContinuous
+  - hash:
+      serializedVersion: 2
+      Hash: 39381d51b8048203d5998588c49d87c6
+    assemblyName: Assembly-CSharp
+    namespaceName: ROS2
+    className: ROS2UnityComponent
+  - hash:
+      serializedVersion: 2
+      Hash: aae2f93155a8b7e8019330b312f51d5e
+    assemblyName: Unity.Robotics.UrdfImporter
+    namespaceName: 
+    className: JointControl
+  - hash:
+      serializedVersion: 2
+      Hash: e1ad5fe1f31a59ad2528f8b89a4eeabd
+    assemblyName: Unity.Robotics.UrdfImporter
+    namespaceName: Unity.Robotics.UrdfImporter
+    className: UrdfVisual
+  - hash:
+      serializedVersion: 2
+      Hash: 1321993db8249e1e05e1e0492b2bbdc3
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBecameVisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ce4f35f9b01b45ffcdde0c100a03cd27
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.RosBridgeClient
+    className: JointStatePublisher
+  - hash:
+      serializedVersion: 2
+      Hash: 61dd2e04369d561e91eb69af40010723
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.RosBridgeClient
+    className: TwistSubscriber
+  - hash:
+      serializedVersion: 2
+      Hash: c9b1ea3bf987a2e780a24849503ca72e
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: Benchmark01_UGUI
+  - hash:
+      serializedVersion: 2
+      Hash: e987953190eb4c12cf19df790566dc2c
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 52db48e3be0a2b4f8b06f918fd1ebfbc
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: f295412bc00b58b9095a71e9764cc886
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 94f898e1687fe4da508d5442c163efb7
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: JointPositionSubscriber
+  - hash:
+      serializedVersion: 2
+      Hash: 04b6685b6f724c0d6024e6b6f96c8202
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ada873da50974d1e7ce247ffb296b0f3
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 7e12302f66e3c8ed5bcfea4ce65fccea
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b51f051c76b60da8057029df2ad5850b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ControlArticular
+  - hash:
+      serializedVersion: 2
+      Hash: ed8bac09ffacadca9994789e381c69ce
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: TMP_TextSelector_A
+  - hash:
+      serializedVersion: 2
+      Hash: 026b88e1ab16d5667ac797ee1c2e6186
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Sendtxt
+  - hash:
+      serializedVersion: 2
+      Hash: 25d90443a97dfed1e09351d7bac0a1ae
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.RosBridgeClient
+    className: JoyAxisJointMotorWriter
+  - hash:
+      serializedVersion: 2
+      Hash: 755ec4bae2b3b16276059d8895b977ea
+    assemblyName: Unity.AdaptivePerformance
+    namespaceName: UnityEngine.AdaptivePerformance
+    className: AdaptiveSorting
+  - hash:
+      serializedVersion: 2
+      Hash: c44610b07773fdc524e6672265c91765
+    assemblyName: Unity.Robotics.UrdfImporter
+    namespaceName: Unity.Robotics.UrdfImporter.Control
+    className: IKRobot
+  - hash:
+      serializedVersion: 2
+      Hash: fce9b835d1e8b08e7ecea8da19f21986
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: CoroutineRunner
+  - hash:
+      serializedVersion: 2
+      Hash: 6ddf94363c6ce4b02d9fdd51290cb0f9
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5a4aa2850fe11587f47e34c270c7fd22
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 3b5263a98bcc71d9a9d1d78a31b34ced
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: b2afee545f7607bd2d2b5a2ae227d428
+    assemblyName: Unity.AdaptivePerformance
+    namespaceName: UnityEngine.AdaptivePerformance
+    className: AdaptiveShadowDistance
+  - hash:
+      serializedVersion: 2
+      Hash: 28fd3d045acc780719a17f02073eb448
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6dc3d79712ca4934f6d50c80f010b1
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 07f6b7f433c8738108c47c5dd5c7c7cd
+    assemblyName: Unity.AdaptivePerformance
+    namespaceName: UnityEngine.AdaptivePerformance
+    className: AdaptivePhysics
+  - hash:
+      serializedVersion: 2
+      Hash: 6d394de691f6d0187f61c08889353d0e
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnButtonClickMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: e23d2210701e34e6850023cabe554c1f
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnInputFieldEndEditMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: bf40c7a9dc15bc219687c9838aa9b41f
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: e1caba50ac9a247d28899a76e1682f9e
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.RosBridgeClient
+    className: JoyAxisReader
+  - hash:
+      serializedVersion: 2
+      Hash: 7bce5c16689a3fe1354ef456e64d353a
+    assemblyName: Assembly-CSharp
+    namespaceName: ROS2
+    className: ROS2PerformanceTest
+  - hash:
+      serializedVersion: 2
+      Hash: c77e7f80798b9c346f7ef512d203b0e5
+    assemblyName: Unity.AdaptivePerformance
+    namespaceName: UnityEngine.AdaptivePerformance
+    className: AdaptiveBatching
+  - hash:
+      serializedVersion: 2
+      Hash: b98001682cba83786775c9e415b89a61
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDropdownValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 1d830bc5cfaaf24301dffea2877f4bea
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: VertexShakeA
+  - hash:
+      serializedVersion: 2
+      Hash: 07c233f87d1385291737f917ff6b4b15
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ToggleFullscreenButton
+  - hash:
+      serializedVersion: 2
+      Hash: a1ac4c50e55874de16eee3db71aa9784
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: aa6623e19c6d8364fa7ccbec13f130b4
+    assemblyName: Unity.AdaptivePerformance
+    namespaceName: UnityEngine.AdaptivePerformance
+    className: AdaptiveFramerate
+  - hash:
+      serializedVersion: 2
+      Hash: ce34d2a28a939977db57b3cf71781975
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.RosBridgeClient
+    className: PoseStampedSubscriber
+  - hash:
+      serializedVersion: 2
+      Hash: 915204dac8acad99f076d6e72ada0a0f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 593a641cd7822a10b9a54aa9eb5c3d5e
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: Benchmark04
+  - hash:
+      serializedVersion: 2
+      Hash: d90629714fa6b0145fcaffc87f5c6559
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnInputFieldValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: bb8d968ef4474e71aaad4a4dce279f90
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseDownMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b6307dfc54cca9ba44f47185c578b0ce
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d7c8092511063e0dae8106bfc8ed63dd
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 23af1fe875fcda1a82f185090aa78cde
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CartesianPositionSubscriber
+  - hash:
+      serializedVersion: 2
+      Hash: 715f7928b39881049ce8c46350cb8681
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTransformParentChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 1534ee51e05e98ee8623a7ff6cd75ae9
+    assemblyName: Unity.AdaptivePerformance
+    namespaceName: UnityEngine.AdaptivePerformance
+    className: AdaptiveShadowQuality
+  - hash:
+      serializedVersion: 2
+      Hash: c6369b4cc3be620d6c9300e920bc3d52
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: VariablesAsset
+  - hash:
+      serializedVersion: 2
+      Hash: c9c1d4459789c2ccb9b1e2b78a7c357f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Ros2CommandSender
+  - hash:
+      serializedVersion: 2
+      Hash: 7bdff9e91edfd9600f92a185def7e34a
+    assemblyName: Unity.VisualScripting.Flow
+    namespaceName: Unity.VisualScripting
+    className: ScriptMachine
+  - hash:
+      serializedVersion: 2
+      Hash: d1ab5295d7fc4235dcd949e7b23bfd0a
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.RosBridgeClient
+    className: PoseArrayPublisher
+  - hash:
+      serializedVersion: 2
+      Hash: 43ebd945b04bced376c791411cf5a289
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSelectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 92d46f94a8859fb05a2862acbd7eaeb4
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.RosBridgeClient
+    className: JointStateSubscriber
+  - hash:
+      serializedVersion: 2
+      Hash: 5b8b7230ad968399f6726aa1269dcdcb
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: d3bece132a2b48e63d78047dece48ba7
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ChatController
+  - hash:
+      serializedVersion: 2
+      Hash: cf32d98954e63b8e30e9334b152e9b8e
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 418b67019f13f9684552f2693bae3971
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: TextMeshProFloatingText
+  - hash:
+      serializedVersion: 2
+      Hash: e6f8333cc8a800e2866870a5ef7efc35
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnControllerColliderHitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a54ccb6b35c883a3f6d1efb32e61b3bd
+    assemblyName: Unity.Robotics.UrdfImporter
+    namespaceName: Unity.Robotics.UrdfImporter.Control
+    className: Controller
+  - hash:
+      serializedVersion: 2
+      Hash: 731480b83236435ed9fb94ca37cf5283
+    assemblyName: Unity.XR.Management
+    namespaceName: UnityEngine.XR.Management
+    className: XRGeneralSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 9a186db5032ac854f4bb710b479113c7
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: b2d2a01a2a85d9ed12e80cb33a9a6044
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 6217b1287eca7eed313cf0b864249a30
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionExit2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 0ed7dfcb5356681e6627b207891cb849
+    assemblyName: Unity.XR.Management
+    namespaceName: UnityEngine.XR.Management
+    className: XRManagerSettings
+  - hash:
+      serializedVersion: 2
+      Hash: e3d0d361fe779728c5c4d2c096e8b602
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.RosBridgeClient
+    className: JoyPublisher
+  - hash:
+      serializedVersion: 2
+      Hash: 709c6d4881fd52fe725e4c53e06cac0d
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.RosBridgeClient
+    className: LaserScanSubscriber
+  - hash:
+      serializedVersion: 2
+      Hash: d5125db89c6b164bbac723664bbc5ee6
+    assemblyName: Unity.AdaptivePerformance
+    namespaceName: UnityEngine.AdaptivePerformance
+    className: AdaptivePerformanceManager
+  - hash:
+      serializedVersion: 2
+      Hash: 0a3f328f3ea906bbbcf794f4c27ee59d
+    assemblyName: Unity.VisualScripting.Flow
+    namespaceName: Unity.VisualScripting
+    className: ScriptGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: c8be88be70ea18592b372e7bf803e797
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CartesianStateWriterNew
+  - hash:
+      serializedVersion: 2
+      Hash: 72561d2e822b466169cd12a3b9f9ae0c
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: VertexShakeB
+  - hash:
+      serializedVersion: 2
+      Hash: fb79e95da8891fc7ac6c36ca6967af23
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 29dc5be4f15cd9c7c9e30804cdcef7d5
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ExitButton
+  - hash:
+      serializedVersion: 2
+      Hash: 552dca338f20933ce362ebbe559a6aa6
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 6290198a4bb61fd821d5e7500b0ffd48
+    assemblyName: Unity.Robotics.UrdfImporter
+    namespaceName: Unity.Robotics.UrdfImporter
+    className: UrdfPlugin
+  - hash:
+      serializedVersion: 2
+      Hash: 7da1e94e8d0bf1c8437a236a0563bff2
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Observador
+  - hash:
+      serializedVersion: 2
+      Hash: 1deda86fe7ffd8587afcfe68a02d034c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EnvMapAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: b0c8a1b11b1433071a20fd6e4c73a5f3
+    assemblyName: Unity.AdaptivePerformance
+    namespaceName: UnityEngine.AdaptivePerformance
+    className: AdaptiveViewDistance
+  - hash:
+      serializedVersion: 2
+      Hash: 88849b2c7da4408e9381c5392d2431e7
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.RosBridgeClient
+    className: LaserScanWriter
+  - hash:
+      serializedVersion: 2
+      Hash: 665da785348a8806bf1524fe10742a60
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: TMP_UiFrameRateCounter
+  - hash:
+      serializedVersion: 2
+      Hash: b747f5d40674055dd70e18552f1b0447
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: ec34e0b1e3bde19d1730836bfe2b35a6
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.Urdf
+    className: UrdfPlugin
+  - hash:
+      serializedVersion: 2
+      Hash: 4718916586b3818eb69bf65df61f0f3a
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionStay2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 185e7bacfbbc5defefa609c70f7ff4ce
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 682dfc653b22feea53b38adb3bc66414
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: c78ed13f6b5a632d70d4f73f56ad81f2
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: VariablesSaver
+  - hash:
+      serializedVersion: 2
+      Hash: 7053e305cdc1eb560f4c3be49d3b5136
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 042785b832afb73fd0585521aa7baf43
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 831bee916455ea44510d75a61b50dc93
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ROSConnection
+  - hash:
+      serializedVersion: 2
+      Hash: 1a680d9a08de79b0d2c779e78c9843b4
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: c933b590b3badb5918fa01e73cd5cc0c
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: ca7965796a6fc0e5baad4cb19f5b5ded
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnJointBreak2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: e416782d95a812c5b5b00e9b103a8e94
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: CameraController
+  - hash:
+      serializedVersion: 2
+      Hash: 9ebc0a3016506a0cbb7e0306dfcb9497
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: DictionaryAsset
+  - hash:
+      serializedVersion: 2
+      Hash: e7e95903ca66d58e1a7cbd71f824e16d
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: fe9cbe15c58b855c95398b83f607622d
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.RosBridgeClient
+    className: ImagePublisher
+  - hash:
+      serializedVersion: 2
+      Hash: 477bcaaa76efa09a9638c663e1e799f4
+    assemblyName: Unity.Robotics.ROSTCPConnector
+    namespaceName: Unity.Robotics.ROSTCPConnector
+    className: ROSConnection
+  - hash:
+      serializedVersion: 2
+      Hash: 9078325c2a6f6a2d9612ade897511860
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 96e7bcfd2d072992dab64ac44058b930
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCancelMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: e28ede075fe7916fee22cd2697590b58
+    assemblyName: Unity.Robotics.UrdfImporter
+    namespaceName: Unity.Robotics.UrdfImporter
+    className: UrdfJointRevolute
+  - hash:
+      serializedVersion: 2
+      Hash: 52840a82fb83b3a7df342e354c4815e4
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: TMPro_InstructionOverlay
+  - hash:
+      serializedVersion: 2
+      Hash: 9126d0be22d964159df51d6d53b879a9
+    assemblyName: Unity.AdaptivePerformance
+    namespaceName: UnityEngine.AdaptivePerformance
+    className: AdaptiveTransparency
+  - hash:
+      serializedVersion: 2
+      Hash: a75a568ce902366f4e82fc98ca6108f5
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: TMP_ExampleScript_01
+  - hash:
+      serializedVersion: 2
+      Hash: dc31d211c7459841fe4f406ae2e51480
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: TextConsoleSimulator
+  - hash:
+      serializedVersion: 2
+      Hash: 5a1710e1ce9ddf5eb06e0d2693171f49
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: ObjectSpin
+  - hash:
+      serializedVersion: 2
+      Hash: 7e9cad7f71f9cc52f699bbd2d2a75734
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerClickMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 11e596871bbb8a6071e9a582c3be3df1
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp
+    className: HingeJointLimitsManager
+  - hash:
+      serializedVersion: 2
+      Hash: aa349b22cd61b9e8488d736f82590d6b
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: TMP_TextInfoDebugTool
+  - hash:
+      serializedVersion: 2
+      Hash: 25c2e4a43e2327b7c675b859a72bf37f
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.RosBridgeClient
+    className: RosConnector
+  - hash:
+      serializedVersion: 2
+      Hash: 0b63f6d3335e11939ce8790b904c8691
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: e402a382f213255c22bda9254dd831b3
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: SceneVariables
+  - hash:
+      serializedVersion: 2
+      Hash: e88d71ef93aba4e7faf243430f6a10ce
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: MacroScriptableObject
+  - hash:
+      serializedVersion: 2
+      Hash: 8dc40a01667ca02b3354a4e7a61be082
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: ceeb6c51b89f022a3deb7b3408c66745
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: TMP_TextEventCheck
+  - hash:
+      serializedVersion: 2
+      Hash: 8a2f78c25d5e92eb97ee5544a162a2e9
+    assemblyName: Unity.AI.Navigation
+    namespaceName: Unity.AI.Navigation
+    className: NavMeshLink
+  - hash:
+      serializedVersion: 2
+      Hash: f2098fcd8ee983a05ec192f63904298f
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnEndDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: db9b308769d19e1f9e161df0392c23ca
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTransformChildrenChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a47182e2cc4ad3e76939204f5ef61278
+    assemblyName: UnityEngine.XR.LegacyInputHelpers
+    namespaceName: UnityEditor.XR.LegacyInputHelpers
+    className: CameraOffset
+  - hash:
+      serializedVersion: 2
+      Hash: 6d94138b60a9299798dda96c1ee6725f
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBeginDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 51b80d3734ea86b38e3101db98029e15
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 966350d3b0cb85d40a37277cf28976f8
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.Urdf
+    className: UrdfJointPlanar
+  - hash:
+      serializedVersion: 2
+      Hash: 47ee34eb8b6021efa0289dbbb17a5a85
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: ec6cf673540b2d4e42c612611eeafe4d
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerStayMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: eb3689ba55543e2ebdd1aed67d41538a
+    assemblyName: UnityEngine.XR.LegacyInputHelpers
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: TransitionArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: ab3d19695db8289414a06e6d45fd6c8e
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: ShaderPropAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 10c17b309bdca62b4d7fbaf113ed4ca0
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 522f6865b4ec12522e602206785309f8
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: GlobalMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: e86512047327df984d6ac4b8806161ca
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.Urdf
+    className: UrdfJointPrismatic
+  - hash:
+      serializedVersion: 2
+      Hash: 33f160a5c07e580c29aba2bd1e4db811
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: e7b25f8ac766577364fcb00c2e80a69e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: InverseKinematicsSubscriber
+  - hash:
+      serializedVersion: 2
+      Hash: 191cd500c627cd6682ef6f70b8e47f2c
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionEnter2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 0c0b64d103fe555d830e8ca206abd12a
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 9f5199f2e532f2924c1bff02fab7c3d2
+    assemblyName: Unity.Robotics.ROSTCPConnector
+    namespaceName: Unity.Robotics.ROSTCPConnector
+    className: TFAttachment
+  - hash:
+      serializedVersion: 2
+      Hash: 1981decccddfde3e97fcfd6689332a6f
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: WarpTextExample
+  - hash:
+      serializedVersion: 2
+      Hash: debd6cb46459a8ee495c7c9499c49651
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp
+    className: PrismaticJointLimitsManager
+  - hash:
+      serializedVersion: 2
+      Hash: 17f82e3e7d8f8b07a270a4aad9bfe79d
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 8bac54fea82999e2813a790c5d17d915
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.Urdf
+    className: UrdfVisual
+  - hash:
+      serializedVersion: 2
+      Hash: 061a5d77ce0aa52a60c21c566c6d8af2
+    assemblyName: Unity.AI.Navigation
+    namespaceName: Unity.AI.Navigation
+    className: NavMeshModifierVolume
+  - hash:
+      serializedVersion: 2
+      Hash: b5580a44feec082abf695e3b542a9236
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RobotKinematics
+  - hash:
+      serializedVersion: 2
+      Hash: 58785bcba46466317503951ef6e42079
+    assemblyName: Unity.AdaptivePerformance
+    namespaceName: UnityEngine.AdaptivePerformance
+    className: AdaptivePerformanceGeneralSettings
+  - hash:
+      serializedVersion: 2
+      Hash: be643a0a4d647cb5696c4feebba95a24
+    assemblyName: Unity.AdaptivePerformance
+    namespaceName: UnityEngine.AdaptivePerformance
+    className: AdaptivePerformanceManagerSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: 0dd14e314956b0d0d83ffcffe60aa46f
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro
+    className: TMP_DigitValidator
+  - hash:
+      serializedVersion: 2
+      Hash: 25f9856e61afbe27958849616102671e
+    assemblyName: Unity.AdaptivePerformance
+    namespaceName: UnityEngine.AdaptivePerformance
+    className: AdaptiveShadowCascade
+  - hash:
+      serializedVersion: 2
+      Hash: 65379fdec056314a2c58f7a0b53fdd35
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.RosBridgeClient
+    className: JointStateReader
+  - hash:
+      serializedVersion: 2
+      Hash: 0a007c800bab5759843a1ff2c792a0dc
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.RosBridgeClient
+    className: JoyAxisInputPasser
+  - hash:
+      serializedVersion: 2
+      Hash: d82086405f46de14829f6b4bcbdd8fc9
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBecameInvisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5874b789cd9832847c61ebfa803213af
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UIElements
+    className: PanelEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: d55992199bd2f5a5502658391cdf8ba7
+    assemblyName: Unity.AI.Navigation
+    namespaceName: Unity.AI.Navigation
+    className: NavMeshSurface
+  - hash:
+      serializedVersion: 2
+      Hash: 9dd54ce33440072d6692a67e0c384ad1
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: bf0842d88681628b29beb00b5e2ab785
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDeselectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: bf77d228d55e45c0513897c086799b1b
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.RosBridgeClient
+    className: JoyButtonReader
+  - hash:
+      serializedVersion: 2
+      Hash: c136c17b43a801f4cd83c7091073a132
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.Urdf
+    className: UrdfRobot
+  - hash:
+      serializedVersion: 2
+      Hash: 1ce63d97d1ca25cba2d91d5f32fd5f79
+    assemblyName: Unity.VisualScripting.State
+    namespaceName: Unity.VisualScripting
+    className: StateGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 756dea23fb63537b41b0292375e6969f
+    assemblyName: Unity.Robotics.UrdfImporter
+    namespaceName: Unity.Robotics.UrdfImporter
+    className: UrdfJointPrismatic
+  - hash:
+      serializedVersion: 2
+      Hash: c66014d11c003811ebca0b4ca4715794
+    assemblyName: Unity.Robotics.UrdfImporter
+    namespaceName: Unity.Robotics.UrdfImporter
+    className: UrdfJointFixed
+  - hash:
+      serializedVersion: 2
+      Hash: 35e0b31791c377513b6fc7b9568c50cd
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: Benchmark02
+  - hash:
+      serializedVersion: 2
+      Hash: 6e3334a5c890aa16ff5a6371f70ba665
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Control_Cartesiano
+  - hash:
+      serializedVersion: 2
+      Hash: 540882762544409cc4530e60db00e951
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 4166580c620718548959a77fa7b43fc1
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: TextMeshSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: 34a9a61f84268cb7a11a2f52c31eb83f
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.Urdf
+    className: UrdfJointFloating
+  - hash:
+      serializedVersion: 2
+      Hash: a710af2a0274f8081247aed063f5ef6d
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.RosBridgeClient
+    className: TwistPublisher
+  - hash:
+      serializedVersion: 2
+      Hash: ef38c1407dba8c1f5d69f5db61a694fe
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: AnimatorMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5971f0168d2c0e8484e3a7bae716bb9b
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.RosBridgeClient
+    className: LaserScanVisualizerMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 57a9394631057f4f433a916a8fdd44a0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MGD_Node
+  - hash:
+      serializedVersion: 2
+      Hash: 270a4536bb6d89d277f4ba038e83ea6c
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.RosBridgeClient
+    className: JoySubscriber
+  - hash:
+      serializedVersion: 2
+      Hash: 33656f83bb0079184b2206a69690ec46
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 9637dcdf3068a91dfe653e61bb82f13d
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 4cbef93cce485131adbb27366d7923c4
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.Urdf
+    className: UrdfJointRevolute
+  - hash:
+      serializedVersion: 2
+      Hash: d9a49c1a22ad67754a2f58ec94214dc5
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.RosBridgeClient
+    className: PoseStampedPublisher
+  - hash:
+      serializedVersion: 2
+      Hash: 8cd7b645812b333dbeaea22742b33450
+    assemblyName: Unity.Robotics.UrdfImporter
+    namespaceName: 
+    className: RuntimeUrdfImporterExample
+  - hash:
+      serializedVersion: 2
+      Hash: cc60ca62dc70ecab73e17d4367e4afa9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DelayModeController
+  - hash:
+      serializedVersion: 2
+      Hash: d8c0bcad2015c1a5cb0d2cfd9a7f7896
+    assemblyName: Unity.Robotics.UrdfImporter
+    namespaceName: Unity.Robotics.UrdfImporter
+    className: UrdfLink
+  - hash:
+      serializedVersion: 2
+      Hash: 8994247ddacb8f8856e38bfaae72d2fe
+    assemblyName: Unity.AdaptivePerformance
+    namespaceName: UnityEngine.AdaptivePerformance
+    className: AdaptiveResolution
+  - hash:
+      serializedVersion: 2
+      Hash: da5a949a0bbd2ff91bc51c5805c2c41f
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseUpAsButtonMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b5cbb0d3d4bbfa9979d5d02eabea5f9e
+    assemblyName: Unity.Robotics.UrdfImporter
+    namespaceName: Unity.Robotics.UrdfImporter
+    className: UrdfCollision
+  - hash:
+      serializedVersion: 2
+      Hash: 8918fe4835c94ba1784ca4030be6c51c
+    assemblyName: Unity.Robotics.UrdfImporter
+    namespaceName: Unity.Robotics.UrdfImporter
+    className: UrdfRobot
+  - hash:
+      serializedVersion: 2
+      Hash: 29997cd69b392cbdadf38662a441d7ee
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.RosBridgeClient
+    className: LaserScanVisualizerLines
+  - hash:
+      serializedVersion: 2
+      Hash: fc0a9a681d29388386a9abf3f08b024a
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: Benchmark03
+  - hash:
+      serializedVersion: 2
+      Hash: 868c001c78004e34ba0027e867d6d74c
+    assemblyName: Unity.Robotics.UrdfImporter
+    namespaceName: Unity.Robotics.UrdfImporter
+    className: UrdfVisuals
+  - hash:
+      serializedVersion: 2
+      Hash: 4f353524ce6564e40764f1ea080b2d85
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerStay2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b439708f45fed2b894199f3dd22ba7ed
+    assemblyName: Unity.Robotics.UrdfImporter
+    namespaceName: Unity.Robotics.UrdfImporter
+    className: PrismaticJointLimitsManager
+  - hash:
+      serializedVersion: 2
+      Hash: 9104447b683bf70406fa01f12ecb564a
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: a90f6a00b23520788be7d89ee3b0773d
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 13f262cc0741566a7ab72682984bc3e1
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 00d1300fe618edf89c78e3ee568963b6
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.RosBridgeClient
+    className: JoyAxisJointTransformWriter
+  - hash:
+      serializedVersion: 2
+      Hash: f357e5bc864365bd8ea2c816a73ac6cf
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.RosBridgeClient
+    className: OdometrySubscriber
+  - hash:
+      serializedVersion: 2
+      Hash: febcfbf0a0d85e37808a3740e3c2c6fa
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 68f2cb287af2eee1f639824485a3402b
+    assemblyName: Unity.AI.Navigation
+    namespaceName: Unity.AI.Navigation
+    className: NavMeshModifier
+  - hash:
+      serializedVersion: 2
+      Hash: 672716ae97f6ddb615fa5ac3ec9da349
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 7434c15ba458c9c9f583205987f44ac8
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MGD_Subscriber
+  - hash:
+      serializedVersion: 2
+      Hash: 1fae8a8e342faf472cdfea25871e3031
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.Urdf
+    className: UrdfJointFixed
+  - hash:
+      serializedVersion: 2
+      Hash: bd337a98b4fb7512648ef3938eddcf76
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.Urdf
+    className: UrdfCollisions
+  - hash:
+      serializedVersion: 2
+      Hash: 81995f9a2762f650b90f06d80e216901
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.Urdf
+    className: UrdfVisuals
+  - hash:
+      serializedVersion: 2
+      Hash: 8bbce9932f67ad8e7f4eefec87800f94
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 7fdd3ee28e9042c3ec83463d0bb3b230
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: TMP_FrameRateCounter
+  - hash:
+      serializedVersion: 2
+      Hash: 35786347217a4cb1a87c5220ce3176ac
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.Urdf
+    className: UrdfCollision
+  - hash:
+      serializedVersion: 2
+      Hash: f669be52680c88846b2093fd41d1e06e
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ebb0705acfaab6e4f71a49270b5bc68f
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.RosBridgeClient
+    className: ImageSubscriber
+  - hash:
+      serializedVersion: 2
+      Hash: 20a120e55ad3ab65556328d5fd8309dd
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 079228f0ba84cf06bfe7f823740c1a14
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ButtonPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 17142b03663387290480c82303274c02
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: f2305da2400dfe6f069770a1a63f0f7c
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 4878e735441f4041539853759559c86f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: c4b85a67513b4f0cf7b5fb2d5ded04b0
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 038b997b2664805b20890177a6869972
+    assemblyName: Unity.Robotics.UrdfImporter
+    namespaceName: Unity.Robotics.UrdfImporter
+    className: UrdfJointFloating
+  - hash:
+      serializedVersion: 2
+      Hash: 8dcc54ed1ca9a10112ecf4f9ae8e993e
+    assemblyName: Assembly-CSharp
+    namespaceName: ROS2
+    className: ROS2ListenerExample
+  - hash:
+      serializedVersion: 2
+      Hash: d2ecd94550edf1b56aff07b1f4e41c57
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerEnter2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8668b70b18eb7f5cd2dce04386848007
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: VertexJitter
+  - hash:
+      serializedVersion: 2
+      Hash: 7bb32d6e4c7614a97d9723ce7e26588c
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: BasicPlayableBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 352b3897399177bba4c844dfb8aedf20
+    assemblyName: Unity.Robotics.UrdfImporter
+    namespaceName: Unity.Robotics.UrdfImporter
+    className: UrdfJointContinuous
+  - hash:
+      serializedVersion: 2
+      Hash: e8d390bd9ecacc453a7500b90d0c0292
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 19824dd35debb3fff0983df49f8359ab
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: afb7b65d28d5a7423e69a1b076be0064
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: 6a0b5b415c00f783202fd1ae2d556cb2
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: b14e186823458f549289789cccbb77ce
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerDownMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 04f2d6a4db8a670aeb2c87d9ffd08865
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro
+    className: TMP_TextEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: ee34255e3e86289bde9bad5e07b84cbc
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollRectValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 830c3b545f6e6ee60a4cebab90516f2c
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: d0cdd713f9bf4e6a625d9e7804deca42
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: a89b0448af4e1cd103a77f9fec0a961f
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSubmitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 1a46629d5ec5009883efbe630a6b52e3
+    assemblyName: Unity.AdaptivePerformance
+    namespaceName: UnityEngine.AdaptivePerformance
+    className: AdaptiveLayerCulling
+  - hash:
+      serializedVersion: 2
+      Hash: 5ebc58ec194dd44630b25fcc270ad4af
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: e9aa79999431150afba2dec0839da15b
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.Urdf
+    className: UrdfLink
+  - hash:
+      serializedVersion: 2
+      Hash: e2734bcc7b3e94776ade5d59f54fec1e
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: TMP_TextSelector_B
+  - hash:
+      serializedVersion: 2
+      Hash: 4728e3d21cc2a12e391e71ec9b7eed0b
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 387f16bd21c1c240e0a6b715f86a58e7
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.Urdf
+    className: UrdfInertial
+  - hash:
+      serializedVersion: 2
+      Hash: 67272c9c30c50b68ef1ce72ac0191c57
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMoveMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b8bd3958b201698e597cff1d008540af
+    assemblyName: Unity.Robotics.UrdfImporter
+    namespaceName: Unity.Robotics.UrdfImporter
+    className: UrdfCollisions
+  - hash:
+      serializedVersion: 2
+      Hash: d0392b7f3f52d5af537ade186b4f51f1
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: d5cd7f207e91ca8336c65a577a6fb2a0
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 92484fc54765841d6b41455af07f5e44
+    assemblyName: Unity.Robotics.UrdfImporter
+    namespaceName: Unity.Robotics.UrdfImporter
+    className: HingeJointLimitsManager
+  - hash:
+      serializedVersion: 2
+      Hash: 710ae1c9b325f59a36007abceb039638
+    assemblyName: Unity.AdaptivePerformance
+    namespaceName: UnityEngine.AdaptivePerformance
+    className: AdaptiveLOD
+  - hash:
+      serializedVersion: 2
+      Hash: eb0596742065f51f7812a64eb77d16c3
+    assemblyName: Unity.AdaptivePerformance
+    namespaceName: UnityEngine.AdaptivePerformance
+    className: IAdaptivePerformanceSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 32907f2a37539cbf6b4bf636831ef264
+    assemblyName: Unity.AdaptivePerformance
+    namespaceName: UnityEngine.AdaptivePerformance
+    className: AdaptiveMSAA
+  - hash:
+      serializedVersion: 2
+      Hash: 63535b79dce3fd7b592917f97f396f32
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.RosBridgeClient.Actionlib
+    className: UnityFibonacciActionSever
+  - hash:
+      serializedVersion: 2
+      Hash: 2a6b9bda1f997dfa4c846dc57703f4c4
+    assemblyName: vhacd
+    namespaceName: MeshProcess
+    className: VHACD
+  - hash:
+      serializedVersion: 2
+      Hash: 67188d34689c9475455862bb822a1cc6
+    assemblyName: Unity.AdaptivePerformance
+    namespaceName: UnityEngine.AdaptivePerformance
+    className: AdaptivePerformanceManagerSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 83447eb14ba5f9222c0f703aabb89c38
+    assemblyName: UnityEngine.XR.LegacyInputHelpers
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: SwingArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: 3f7bf9e8e0f7b78cb99e5e98c191a087
+    assemblyName: Unity.Robotics.ROSTCPConnector
+    namespaceName: Unity.Robotics.ROSTCPConnector
+    className: HudPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 9a174471d4db2c0c6d3ac47d2f818db1
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnParticleCollisionMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 0f5a086d4d028363983ba6ca30a01397
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseOverMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 2c583ad0ac85d03e8700dd05fdcb46cb
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: Variables
+  - hash:
+      serializedVersion: 2
+      Hash: 1f9982142c8aa188e1bcc31eff2b8021
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: JointStateWriter
+  - hash:
+      serializedVersion: 2
+      Hash: 502a0d788634601faaefeacfda55e23a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DropdownSample
+  - hash:
+      serializedVersion: 2
+      Hash: b30c8635462e66ac20f4241106119f77
+    assemblyName: Unity.VisualScripting.State
+    namespaceName: Unity.VisualScripting
+    className: StateMachine
+  - hash:
+      serializedVersion: 2
+      Hash: c4de0ff7e075dd89c9fed5913dd775d2
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro
+    className: TMP_PhoneNumberValidator
+  - hash:
+      serializedVersion: 2
+      Hash: c4ae0ec287bc3cde0bc98e1a65f9cef7
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: VertexColorCycler
+  - hash:
+      serializedVersion: 2
+      Hash: 568292fb7ea6c4f7a667e5ff76bc7e85
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseUpMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 1553f209ae0b2d5d3a35685fca55f9c3
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 9eccc4340fcd994586e0dcb134c4612e
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: TeleType
+  - hash:
+      serializedVersion: 2
+      Hash: ad481ff06161f16088f359b541d13adf
+    assemblyName: Unity.Robotics.UrdfImporter
+    namespaceName: Unity.Robotics.UrdfImporter
+    className: UrdfPlugins
+  - hash:
+      serializedVersion: 2
+      Hash: 62bccc111822cead07965e094d95875a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: recordPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 9fb1c3ab48b256d508ecddd967f98652
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: VertexZoom
+  - hash:
+      serializedVersion: 2
+      Hash: 6887c268738d038e54056b01b1ad1c17
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.RosBridgeClient
+    className: LaserScanPublisher
+  - hash:
+      serializedVersion: 2
+      Hash: b73a90d5410f0f83a2d58be6a6d560f7
+    assemblyName: Unity.Robotics.UrdfImporter
+    namespaceName: Unity.Robotics.UrdfImporter
+    className: UrdfInertial
+  - hash:
+      serializedVersion: 2
+      Hash: ff76cf6cf52b4db7b95af6ffadca9288
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: abf1050516785f84a1f62c1fa2056110
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.Urdf
+    className: UrdfPlugins
+  - hash:
+      serializedVersion: 2
+      Hash: 02a47340661d2ea7c6d30e292cfef403
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnToggleValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 970f9a77b4a0e85d266b7dee39f1d1cd
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.RosBridgeClient.Actionlib
+    className: UnityFibonacciActionClient
+  - hash:
+      serializedVersion: 2
+      Hash: 8bf800a764665b085fe469e8aea7f167
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 216f6c07bfa250e44b3e8d62572474e8
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: Benchmark01
+  - hash:
+      serializedVersion: 2
+      Hash: 4fcf0bb4aff1d14a1dfcdedc4b07bd05
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 74d338bd577f675dd39741d6e53fcc46
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.RosBridgeClient
+    className: GetParamServiceProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 00eef92bf387da2c9009267123d9d674
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerExit2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8b15e35eb98fc258ec2e839df7c3c9b0
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 1c2deb5ed7339c5ef4d48189c80ae1c2
+    assemblyName: Unity.Robotics.UrdfImporter
+    namespaceName: Unity.Robotics.UrdfImporter.Control
+    className: FKRobot
+  - hash:
+      serializedVersion: 2
+      Hash: e5a54fa8029f6f96eb10b814cea48a85
+    assemblyName: Assembly-CSharp
+    namespaceName: RosSharp.RosBridgeClient
+    className: LaserScanReader
+  platform: 24
+  scenePathNames:
+  - Assets/Scenes/SampleScene.unity
+  playerPath: /home/angel/UnityEjecutable/AN5interfaz.x86_64

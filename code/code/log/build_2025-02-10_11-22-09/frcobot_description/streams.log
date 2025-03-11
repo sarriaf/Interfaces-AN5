@@ -1,0 +1,33 @@
+[0.010s] Invoking command in '/home/angel/test_ws/src/code/code/build/frcobot_description': /usr/bin/cmake /home/angel/test_ws/src/code/code/frcobot_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/angel/test_ws/src/code/code/install/frcobot_description
+[0.247s] -- The C compiler identification is GNU 11.4.0
+[0.527s] -- The CXX compiler identification is GNU 11.4.0
+[0.540s] -- Detecting C compiler ABI info
+[0.698s] -- Detecting C compiler ABI info - done
+[0.710s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.711s] -- Detecting C compile features
+[0.712s] -- Detecting C compile features - done
+[0.717s] -- Detecting CXX compiler ABI info
+[0.852s] -- Detecting CXX compiler ABI info - done
+[0.869s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.869s] -- Detecting CXX compile features
+[0.870s] -- Detecting CXX compile features - done
+[0.883s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.884s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.884s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.884s]   CMake did not find one.
+[0.884s] 
+[0.884s]   Could not find a package configuration file provided by "catkin" with any
+[0.884s]   of the following names:
+[0.884s] 
+[0.884s]     catkinConfig.cmake
+[0.885s]     catkin-config.cmake
+[0.885s] 
+[0.885s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.885s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.885s]   provides a separate development package or SDK, be sure it has been
+[0.885s]   installed.
+[0.885s] 
+[0.885s] -- Configuring incomplete, errors occurred!
+[0.886s] See also "/home/angel/test_ws/src/code/code/build/frcobot_description/CMakeFiles/CMakeOutput.log".
+[0.886s] [0m
+[0.887s] Invoked command in '/home/angel/test_ws/src/code/code/build/frcobot_description' returned '1': /usr/bin/cmake /home/angel/test_ws/src/code/code/frcobot_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/angel/test_ws/src/code/code/install/frcobot_description

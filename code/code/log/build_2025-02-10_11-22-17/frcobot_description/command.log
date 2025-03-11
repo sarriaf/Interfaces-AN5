@@ -1,0 +1,2 @@
+Invoking command in '/home/angel/test_ws/src/code/code/build/frcobot_description': /usr/bin/cmake /home/angel/test_ws/src/code/code/frcobot_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/angel/test_ws/src/code/code/install/frcobot_description
+Invoked command in '/home/angel/test_ws/src/code/code/build/frcobot_description' returned '1': /usr/bin/cmake /home/angel/test_ws/src/code/code/frcobot_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/angel/test_ws/src/code/code/install/frcobot_description

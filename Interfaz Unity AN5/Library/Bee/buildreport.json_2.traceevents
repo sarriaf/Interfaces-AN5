@@ -1,0 +1,916 @@
+{ "pid": 7282, "tid": 34359738368, "ph": "M", "name": "thread_name", "args": { "name": "ReadEntireBinlogFromIpcAsync" } },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903405350, "dur": 24496, "ph": "X", "name": "WaitForConnectionAsync", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903429848, "dur": 101968, "ph": "X", "name": "UpdateFromStreamAsync", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903429866, "dur": 151, "ph": "X", "name": "ReadAsync 0", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903430033, "dur": 1, "ph": "X", "name": "ProcessMessages 4", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903430036, "dur": 1148, "ph": "X", "name": "ReadAsync 4", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903431190, "dur": 32, "ph": "X", "name": "ProcessMessages 59", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903431224, "dur": 3937, "ph": "X", "name": "ReadAsync 59", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903435174, "dur": 19, "ph": "X", "name": "ProcessMessages 3942", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903435195, "dur": 80, "ph": "X", "name": "ReadAsync 3942", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903435277, "dur": 1, "ph": "X", "name": "ProcessMessages 1491", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903435280, "dur": 262, "ph": "X", "name": "ReadAsync 1491", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903435557, "dur": 6, "ph": "X", "name": "ProcessMessages 4418", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903435565, "dur": 346, "ph": "X", "name": "ReadAsync 4418", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903435934, "dur": 6, "ph": "X", "name": "ProcessMessages 6650", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903435942, "dur": 163, "ph": "X", "name": "ReadAsync 6650", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903436106, "dur": 4, "ph": "X", "name": "ProcessMessages 3248", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903436112, "dur": 249, "ph": "X", "name": "ReadAsync 3248", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903436366, "dur": 5, "ph": "X", "name": "ProcessMessages 4037", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903436372, "dur": 438, "ph": "X", "name": "ReadAsync 4037", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903436820, "dur": 7, "ph": "X", "name": "ProcessMessages 9133", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903436828, "dur": 151, "ph": "X", "name": "ReadAsync 9133", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903436981, "dur": 3, "ph": "X", "name": "ProcessMessages 3396", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903436986, "dur": 355, "ph": "X", "name": "ReadAsync 3396", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903437346, "dur": 7, "ph": "X", "name": "ProcessMessages 6352", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903437355, "dur": 162, "ph": "X", "name": "ReadAsync 6352", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903437518, "dur": 3, "ph": "X", "name": "ProcessMessages 3790", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903437523, "dur": 119, "ph": "X", "name": "ReadAsync 3790", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903437648, "dur": 2, "ph": "X", "name": "ProcessMessages 2184", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903437652, "dur": 85, "ph": "X", "name": "ReadAsync 2184", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903437738, "dur": 1, "ph": "X", "name": "ProcessMessages 2000", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903437740, "dur": 75, "ph": "X", "name": "ReadAsync 2000", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903437817, "dur": 1, "ph": "X", "name": "ProcessMessages 1633", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903437818, "dur": 279, "ph": "X", "name": "ReadAsync 1633", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903438106, "dur": 6, "ph": "X", "name": "ProcessMessages 5138", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903438113, "dur": 323, "ph": "X", "name": "ReadAsync 5138", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903438444, "dur": 5, "ph": "X", "name": "ProcessMessages 7653", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903438450, "dur": 91, "ph": "X", "name": "ReadAsync 7653", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903438542, "dur": 2, "ph": "X", "name": "ProcessMessages 2383", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903438545, "dur": 74, "ph": "X", "name": "ReadAsync 2383", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903438620, "dur": 1, "ph": "X", "name": "ProcessMessages 2006", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903438622, "dur": 78, "ph": "X", "name": "ReadAsync 2006", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903438701, "dur": 1, "ph": "X", "name": "ProcessMessages 1702", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903438703, "dur": 234, "ph": "X", "name": "ReadAsync 1702", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903438944, "dur": 4, "ph": "X", "name": "ProcessMessages 5557", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903438949, "dur": 118, "ph": "X", "name": "ReadAsync 5557", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903439068, "dur": 2, "ph": "X", "name": "ProcessMessages 3342", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903439072, "dur": 82, "ph": "X", "name": "ReadAsync 3342", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903439155, "dur": 1, "ph": "X", "name": "ProcessMessages 1982", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903439158, "dur": 72, "ph": "X", "name": "ReadAsync 1982", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903439234, "dur": 1, "ph": "X", "name": "ProcessMessages 1513", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903439236, "dur": 94, "ph": "X", "name": "ReadAsync 1513", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903439332, "dur": 1, "ph": "X", "name": "ProcessMessages 2454", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903439334, "dur": 59, "ph": "X", "name": "ReadAsync 2454", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903439395, "dur": 1, "ph": "X", "name": "ProcessMessages 1358", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903439397, "dur": 94, "ph": "X", "name": "ReadAsync 1358", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903439493, "dur": 1, "ph": "X", "name": "ProcessMessages 2344", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903439495, "dur": 69, "ph": "X", "name": "ReadAsync 2344", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903439565, "dur": 1, "ph": "X", "name": "ProcessMessages 1444", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903439568, "dur": 54, "ph": "X", "name": "ReadAsync 1444", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903439625, "dur": 63, "ph": "X", "name": "ReadAsync 1224", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903439689, "dur": 1, "ph": "X", "name": "ProcessMessages 1338", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903439691, "dur": 56, "ph": "X", "name": "ReadAsync 1338", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903439749, "dur": 1, "ph": "X", "name": "ProcessMessages 1586", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903439750, "dur": 66, "ph": "X", "name": "ReadAsync 1586", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903439817, "dur": 1, "ph": "X", "name": "ProcessMessages 1633", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903439819, "dur": 61, "ph": "X", "name": "ReadAsync 1633", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903439881, "dur": 1, "ph": "X", "name": "ProcessMessages 1759", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903439883, "dur": 53, "ph": "X", "name": "ReadAsync 1759", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903439937, "dur": 1, "ph": "X", "name": "ProcessMessages 1491", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903439938, "dur": 67, "ph": "X", "name": "ReadAsync 1491", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903440006, "dur": 1, "ph": "X", "name": "ProcessMessages 1733", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903440008, "dur": 69, "ph": "X", "name": "ReadAsync 1733", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903440078, "dur": 1, "ph": "X", "name": "ProcessMessages 1601", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903440081, "dur": 63, "ph": "X", "name": "ReadAsync 1601", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903440148, "dur": 1, "ph": "X", "name": "ProcessMessages 1599", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903440150, "dur": 76, "ph": "X", "name": "ReadAsync 1599", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903440229, "dur": 2, "ph": "X", "name": "ProcessMessages 1567", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903440232, "dur": 144, "ph": "X", "name": "ReadAsync 1567", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903440379, "dur": 2, "ph": "X", "name": "ProcessMessages 4225", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903440382, "dur": 75, "ph": "X", "name": "ReadAsync 4225", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903440458, "dur": 1, "ph": "X", "name": "ProcessMessages 2057", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903440460, "dur": 61, "ph": "X", "name": "ReadAsync 2057", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903440522, "dur": 1, "ph": "X", "name": "ProcessMessages 1987", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903440526, "dur": 60, "ph": "X", "name": "ReadAsync 1987", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903440588, "dur": 1, "ph": "X", "name": "ProcessMessages 1715", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903440591, "dur": 47, "ph": "X", "name": "ReadAsync 1715", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903440639, "dur": 1, "ph": "X", "name": "ProcessMessages 1442", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903440641, "dur": 53, "ph": "X", "name": "ReadAsync 1442", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903440695, "dur": 1, "ph": "X", "name": "ProcessMessages 1445", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903440698, "dur": 59, "ph": "X", "name": "ReadAsync 1445", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903440758, "dur": 1, "ph": "X", "name": "ProcessMessages 1471", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903440760, "dur": 54, "ph": "X", "name": "ReadAsync 1471", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903440815, "dur": 1, "ph": "X", "name": "ProcessMessages 1540", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903440817, "dur": 42, "ph": "X", "name": "ReadAsync 1540", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903440860, "dur": 1, "ph": "X", "name": "ProcessMessages 1248", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903440861, "dur": 42, "ph": "X", "name": "ReadAsync 1248", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903440905, "dur": 4, "ph": "X", "name": "ProcessMessages 1074", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903440911, "dur": 61, "ph": "X", "name": "ReadAsync 1074", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903440972, "dur": 1, "ph": "X", "name": "ProcessMessages 1823", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903440974, "dur": 60, "ph": "X", "name": "ReadAsync 1823", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903441036, "dur": 1, "ph": "X", "name": "ProcessMessages 1857", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903441038, "dur": 46, "ph": "X", "name": "ReadAsync 1857", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903441085, "dur": 1, "ph": "X", "name": "ProcessMessages 1301", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903441087, "dur": 38, "ph": "X", "name": "ReadAsync 1301", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903441166, "dur": 109, "ph": "X", "name": "ReadAsync 1143", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903441277, "dur": 2, "ph": "X", "name": "ProcessMessages 3934", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903441280, "dur": 48, "ph": "X", "name": "ReadAsync 3934", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903441328, "dur": 1, "ph": "X", "name": "ProcessMessages 1323", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903441330, "dur": 54, "ph": "X", "name": "ReadAsync 1323", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903441389, "dur": 1, "ph": "X", "name": "ProcessMessages 1543", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903441390, "dur": 56, "ph": "X", "name": "ReadAsync 1543", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903441447, "dur": 1, "ph": "X", "name": "ProcessMessages 1577", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903441449, "dur": 63, "ph": "X", "name": "ReadAsync 1577", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903441513, "dur": 1, "ph": "X", "name": "ProcessMessages 1946", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903441515, "dur": 40, "ph": "X", "name": "ReadAsync 1946", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903441556, "dur": 2, "ph": "X", "name": "ProcessMessages 1214", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903441559, "dur": 52, "ph": "X", "name": "ReadAsync 1214", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903441612, "dur": 1, "ph": "X", "name": "ProcessMessages 1792", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903441614, "dur": 55, "ph": "X", "name": "ReadAsync 1792", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903441670, "dur": 1, "ph": "X", "name": "ProcessMessages 1532", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903441672, "dur": 48, "ph": "X", "name": "ReadAsync 1532", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903441722, "dur": 1, "ph": "X", "name": "ProcessMessages 1582", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903441724, "dur": 40, "ph": "X", "name": "ReadAsync 1582", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903441766, "dur": 46, "ph": "X", "name": "ReadAsync 1281", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903441814, "dur": 42, "ph": "X", "name": "ReadAsync 1494", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903441858, "dur": 1, "ph": "X", "name": "ProcessMessages 1331", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903441859, "dur": 50, "ph": "X", "name": "ReadAsync 1331", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903441911, "dur": 1, "ph": "X", "name": "ProcessMessages 1695", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903441912, "dur": 49, "ph": "X", "name": "ReadAsync 1695", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903441966, "dur": 43, "ph": "X", "name": "ReadAsync 1521", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903442010, "dur": 1, "ph": "X", "name": "ProcessMessages 1318", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903442012, "dur": 41, "ph": "X", "name": "ReadAsync 1318", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903442055, "dur": 49, "ph": "X", "name": "ReadAsync 1362", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903442107, "dur": 62, "ph": "X", "name": "ReadAsync 1807", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903442170, "dur": 1, "ph": "X", "name": "ProcessMessages 1960", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903442172, "dur": 51, "ph": "X", "name": "ReadAsync 1960", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903442225, "dur": 65, "ph": "X", "name": "ReadAsync 1369", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903442292, "dur": 1, "ph": "X", "name": "ProcessMessages 1908", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903442294, "dur": 95, "ph": "X", "name": "ReadAsync 1908", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903442390, "dur": 2, "ph": "X", "name": "ProcessMessages 3305", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903442393, "dur": 113, "ph": "X", "name": "ReadAsync 3305", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903442508, "dur": 2, "ph": "X", "name": "ProcessMessages 3558", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903442511, "dur": 63, "ph": "X", "name": "ReadAsync 3558", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903442575, "dur": 1, "ph": "X", "name": "ProcessMessages 2418", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903442577, "dur": 39, "ph": "X", "name": "ReadAsync 2418", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903442619, "dur": 164, "ph": "X", "name": "ReadAsync 1302", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903442787, "dur": 4, "ph": "X", "name": "ProcessMessages 5010", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903442792, "dur": 115, "ph": "X", "name": "ReadAsync 5010", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903442908, "dur": 2, "ph": "X", "name": "ProcessMessages 4256", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903442910, "dur": 136, "ph": "X", "name": "ReadAsync 4256", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903443048, "dur": 2, "ph": "X", "name": "ProcessMessages 4469", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903443052, "dur": 166, "ph": "X", "name": "ReadAsync 4469", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903443221, "dur": 3, "ph": "X", "name": "ProcessMessages 5305", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903443226, "dur": 93, "ph": "X", "name": "ReadAsync 5305", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903443320, "dur": 1, "ph": "X", "name": "ProcessMessages 3626", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903443322, "dur": 94, "ph": "X", "name": "ReadAsync 3626", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903443418, "dur": 2, "ph": "X", "name": "ProcessMessages 2615", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903443421, "dur": 158, "ph": "X", "name": "ReadAsync 2615", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903443582, "dur": 3, "ph": "X", "name": "ProcessMessages 4924", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903443586, "dur": 76, "ph": "X", "name": "ReadAsync 4924", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903443663, "dur": 1, "ph": "X", "name": "ProcessMessages 2931", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903443665, "dur": 106, "ph": "X", "name": "ReadAsync 2931", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903443773, "dur": 2, "ph": "X", "name": "ProcessMessages 3358", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903443776, "dur": 103, "ph": "X", "name": "ReadAsync 3358", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903443881, "dur": 2, "ph": "X", "name": "ProcessMessages 3143", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903443884, "dur": 63, "ph": "X", "name": "ReadAsync 3143", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903443949, "dur": 1, "ph": "X", "name": "ProcessMessages 2144", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903443951, "dur": 27, "ph": "X", "name": "ReadAsync 2144", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903443980, "dur": 64, "ph": "X", "name": "ReadAsync 639", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903444046, "dur": 1, "ph": "X", "name": "ProcessMessages 1752", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903444048, "dur": 75, "ph": "X", "name": "ReadAsync 1752", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903444124, "dur": 1, "ph": "X", "name": "ProcessMessages 2830", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903444125, "dur": 176, "ph": "X", "name": "ReadAsync 2830", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903444305, "dur": 3, "ph": "X", "name": "ProcessMessages 5266", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903444310, "dur": 199, "ph": "X", "name": "ReadAsync 5266", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903444511, "dur": 4, "ph": "X", "name": "ProcessMessages 6789", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903444516, "dur": 66, "ph": "X", "name": "ReadAsync 6789", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903444583, "dur": 1, "ph": "X", "name": "ProcessMessages 2567", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903444585, "dur": 161, "ph": "X", "name": "ReadAsync 2567", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903444748, "dur": 3, "ph": "X", "name": "ProcessMessages 5525", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903444752, "dur": 173, "ph": "X", "name": "ReadAsync 5525", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903444928, "dur": 3, "ph": "X", "name": "ProcessMessages 5648", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903444932, "dur": 73, "ph": "X", "name": "ReadAsync 5648", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903445007, "dur": 1, "ph": "X", "name": "ProcessMessages 2898", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903445008, "dur": 59, "ph": "X", "name": "ReadAsync 2898", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903445069, "dur": 1, "ph": "X", "name": "ProcessMessages 1991", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903445075, "dur": 116, "ph": "X", "name": "ReadAsync 1991", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903445197, "dur": 2, "ph": "X", "name": "ProcessMessages 3314", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903445200, "dur": 180, "ph": "X", "name": "ReadAsync 3314", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903445383, "dur": 4, "ph": "X", "name": "ProcessMessages 5455", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903445388, "dur": 35, "ph": "X", "name": "ReadAsync 5455", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903445461, "dur": 125, "ph": "X", "name": "ReadAsync 545", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903445587, "dur": 3, "ph": "X", "name": "ProcessMessages 5011", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903445591, "dur": 140, "ph": "X", "name": "ReadAsync 5011", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903445733, "dur": 3, "ph": "X", "name": "ProcessMessages 3539", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903445737, "dur": 96, "ph": "X", "name": "ReadAsync 3539", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903445833, "dur": 2, "ph": "X", "name": "ProcessMessages 2817", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903445836, "dur": 46, "ph": "X", "name": "ReadAsync 2817", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903445884, "dur": 138, "ph": "X", "name": "ReadAsync 1231", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903446025, "dur": 3, "ph": "X", "name": "ProcessMessages 3554", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903446029, "dur": 74, "ph": "X", "name": "ReadAsync 3554", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903446104, "dur": 1, "ph": "X", "name": "ProcessMessages 2035", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903446106, "dur": 44, "ph": "X", "name": "ReadAsync 2035", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903446152, "dur": 79, "ph": "X", "name": "ReadAsync 1192", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903446234, "dur": 2, "ph": "X", "name": "ProcessMessages 1499", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903446236, "dur": 165, "ph": "X", "name": "ReadAsync 1499", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903446404, "dur": 3, "ph": "X", "name": "ProcessMessages 3841", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903446408, "dur": 117, "ph": "X", "name": "ReadAsync 3841", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903446526, "dur": 2, "ph": "X", "name": "ProcessMessages 2839", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903446528, "dur": 97, "ph": "X", "name": "ReadAsync 2839", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903446626, "dur": 5, "ph": "X", "name": "ProcessMessages 2372", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903446632, "dur": 125, "ph": "X", "name": "ReadAsync 2372", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903446759, "dur": 2, "ph": "X", "name": "ProcessMessages 2851", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903446763, "dur": 79, "ph": "X", "name": "ReadAsync 2851", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903446843, "dur": 1, "ph": "X", "name": "ProcessMessages 2203", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903446845, "dur": 51, "ph": "X", "name": "ReadAsync 2203", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903446897, "dur": 1, "ph": "X", "name": "ProcessMessages 1145", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903446899, "dur": 107, "ph": "X", "name": "ReadAsync 1145", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903447008, "dur": 2, "ph": "X", "name": "ProcessMessages 2420", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903447011, "dur": 73, "ph": "X", "name": "ReadAsync 2420", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903447085, "dur": 1, "ph": "X", "name": "ProcessMessages 1966", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903447087, "dur": 62, "ph": "X", "name": "ReadAsync 1966", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903447150, "dur": 1, "ph": "X", "name": "ProcessMessages 1676", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903447152, "dur": 35, "ph": "X", "name": "ReadAsync 1676", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903447190, "dur": 140, "ph": "X", "name": "ReadAsync 651", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903447334, "dur": 3, "ph": "X", "name": "ProcessMessages 3110", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903447338, "dur": 153, "ph": "X", "name": "ReadAsync 3110", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903447492, "dur": 2, "ph": "X", "name": "ProcessMessages 3967", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903447496, "dur": 82, "ph": "X", "name": "ReadAsync 3967", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903447579, "dur": 1, "ph": "X", "name": "ProcessMessages 2492", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903447581, "dur": 95, "ph": "X", "name": "ReadAsync 2492", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903447682, "dur": 2, "ph": "X", "name": "ProcessMessages 2284", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903447685, "dur": 232, "ph": "X", "name": "ReadAsync 2284", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903447920, "dur": 5, "ph": "X", "name": "ProcessMessages 6248", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903447927, "dur": 156, "ph": "X", "name": "ReadAsync 6248", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903448085, "dur": 3, "ph": "X", "name": "ProcessMessages 4373", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903448089, "dur": 140, "ph": "X", "name": "ReadAsync 4373", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903448231, "dur": 2, "ph": "X", "name": "ProcessMessages 3600", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903448234, "dur": 169, "ph": "X", "name": "ReadAsync 3600", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903448407, "dur": 3, "ph": "X", "name": "ProcessMessages 3775", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903448412, "dur": 97, "ph": "X", "name": "ReadAsync 3775", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903448510, "dur": 2, "ph": "X", "name": "ProcessMessages 2720", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903448513, "dur": 168, "ph": "X", "name": "ReadAsync 2720", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903448684, "dur": 3, "ph": "X", "name": "ProcessMessages 3852", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903448694, "dur": 176, "ph": "X", "name": "ReadAsync 3852", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903448872, "dur": 3, "ph": "X", "name": "ProcessMessages 4849", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903448877, "dur": 61, "ph": "X", "name": "ReadAsync 4849", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903448939, "dur": 1, "ph": "X", "name": "ProcessMessages 1161", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903448941, "dur": 2222, "ph": "X", "name": "ReadAsync 1161", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903451165, "dur": 1, "ph": "X", "name": "ProcessMessages 32", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903451167, "dur": 326, "ph": "X", "name": "ReadAsync 32", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903451497, "dur": 1, "ph": "X", "name": "ProcessMessages 48", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903451499, "dur": 119, "ph": "X", "name": "ReadAsync 48", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903451621, "dur": 1, "ph": "X", "name": "ProcessMessages 176", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903451623, "dur": 38, "ph": "X", "name": "ReadAsync 176", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903451665, "dur": 33, "ph": "X", "name": "ReadAsync 64", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903451703, "dur": 1, "ph": "X", "name": "ProcessMessages 16", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903451705, "dur": 36, "ph": "X", "name": "ReadAsync 16", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903451742, "dur": 1, "ph": "X", "name": "ProcessMessages 112", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903451744, "dur": 29, "ph": "X", "name": "ReadAsync 112", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903451777, "dur": 30, "ph": "X", "name": "ReadAsync 64", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903451809, "dur": 1, "ph": "X", "name": "ProcessMessages 144", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903451811, "dur": 49, "ph": "X", "name": "ReadAsync 144", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903451862, "dur": 1, "ph": "X", "name": "ProcessMessages 208", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903451865, "dur": 55, "ph": "X", "name": "ReadAsync 208", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903451922, "dur": 1, "ph": "X", "name": "ProcessMessages 192", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903451925, "dur": 74, "ph": "X", "name": "ReadAsync 192", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903452006, "dur": 2, "ph": "X", "name": "ProcessMessages 400", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903452010, "dur": 62, "ph": "X", "name": "ReadAsync 400", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903452074, "dur": 2, "ph": "X", "name": "ProcessMessages 400", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903452077, "dur": 46, "ph": "X", "name": "ReadAsync 400", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903452126, "dur": 1, "ph": "X", "name": "ProcessMessages 160", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903452128, "dur": 36, "ph": "X", "name": "ReadAsync 160", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903452166, "dur": 1, "ph": "X", "name": "ProcessMessages 112", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903452168, "dur": 76, "ph": "X", "name": "ReadAsync 112", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903452249, "dur": 2, "ph": "X", "name": "ProcessMessages 268", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903452252, "dur": 51, "ph": "X", "name": "ReadAsync 268", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903452306, "dur": 1, "ph": "X", "name": "ProcessMessages 292", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903452308, "dur": 27, "ph": "X", "name": "ReadAsync 292", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903452337, "dur": 1, "ph": "X", "name": "ProcessMessages 112", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903452339, "dur": 43, "ph": "X", "name": "ReadAsync 112", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903452383, "dur": 1, "ph": "X", "name": "ProcessMessages 208", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903452385, "dur": 26, "ph": "X", "name": "ReadAsync 208", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903452413, "dur": 30, "ph": "X", "name": "ReadAsync 128", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903452445, "dur": 1, "ph": "X", "name": "ProcessMessages 176", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903452447, "dur": 28, "ph": "X", "name": "ReadAsync 176", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903452477, "dur": 1, "ph": "X", "name": "ProcessMessages 128", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903452479, "dur": 31, "ph": "X", "name": "ReadAsync 128", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903452513, "dur": 1, "ph": "X", "name": "ProcessMessages 48", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903452515, "dur": 157, "ph": "X", "name": "ReadAsync 48", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903452675, "dur": 1, "ph": "X", "name": "ProcessMessages 44", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903452677, "dur": 66, "ph": "X", "name": "ReadAsync 44", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903452745, "dur": 1, "ph": "X", "name": "ProcessMessages 228", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903452747, "dur": 30, "ph": "X", "name": "ReadAsync 228", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903452778, "dur": 1, "ph": "X", "name": "ProcessMessages 176", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903452780, "dur": 110, "ph": "X", "name": "ReadAsync 176", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903452893, "dur": 1, "ph": "X", "name": "ProcessMessages 128", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903452895, "dur": 37, "ph": "X", "name": "ReadAsync 128", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903452934, "dur": 1, "ph": "X", "name": "ProcessMessages 80", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903452936, "dur": 61, "ph": "X", "name": "ReadAsync 80", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453001, "dur": 1, "ph": "X", "name": "ProcessMessages 176", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453004, "dur": 45, "ph": "X", "name": "ReadAsync 176", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453050, "dur": 2, "ph": "X", "name": "ProcessMessages 272", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453053, "dur": 26, "ph": "X", "name": "ReadAsync 272", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453082, "dur": 1, "ph": "X", "name": "ProcessMessages 64", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453084, "dur": 84, "ph": "X", "name": "ReadAsync 64", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453172, "dur": 2, "ph": "X", "name": "ProcessMessages 288", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453179, "dur": 51, "ph": "X", "name": "ReadAsync 288", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453233, "dur": 1, "ph": "X", "name": "ProcessMessages 96", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453235, "dur": 61, "ph": "X", "name": "ReadAsync 96", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453298, "dur": 3, "ph": "X", "name": "ProcessMessages 292", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453302, "dur": 33, "ph": "X", "name": "ReadAsync 292", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453337, "dur": 1, "ph": "X", "name": "ProcessMessages 128", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453339, "dur": 38, "ph": "X", "name": "ReadAsync 128", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453384, "dur": 1, "ph": "X", "name": "ProcessMessages 176", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453386, "dur": 56, "ph": "X", "name": "ReadAsync 176", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453444, "dur": 2, "ph": "X", "name": "ProcessMessages 320", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453447, "dur": 24, "ph": "X", "name": "ReadAsync 320", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453472, "dur": 1, "ph": "X", "name": "ProcessMessages 108", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453474, "dur": 28, "ph": "X", "name": "ReadAsync 108", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453511, "dur": 36, "ph": "X", "name": "ReadAsync 84", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453549, "dur": 1, "ph": "X", "name": "ProcessMessages 240", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453551, "dur": 53, "ph": "X", "name": "ReadAsync 240", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453607, "dur": 2, "ph": "X", "name": "ProcessMessages 256", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453609, "dur": 36, "ph": "X", "name": "ReadAsync 256", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453648, "dur": 1, "ph": "X", "name": "ProcessMessages 128", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453649, "dur": 33, "ph": "X", "name": "ReadAsync 128", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453684, "dur": 1, "ph": "X", "name": "ProcessMessages 160", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453686, "dur": 20, "ph": "X", "name": "ReadAsync 160", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453709, "dur": 54, "ph": "X", "name": "ReadAsync 80", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453764, "dur": 1, "ph": "X", "name": "ProcessMessages 224", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453766, "dur": 32, "ph": "X", "name": "ReadAsync 224", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453800, "dur": 1, "ph": "X", "name": "ProcessMessages 160", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453802, "dur": 32, "ph": "X", "name": "ReadAsync 160", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453835, "dur": 1, "ph": "X", "name": "ProcessMessages 140", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453837, "dur": 29, "ph": "X", "name": "ReadAsync 140", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453868, "dur": 1, "ph": "X", "name": "ProcessMessages 112", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453870, "dur": 22, "ph": "X", "name": "ReadAsync 112", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453894, "dur": 16, "ph": "X", "name": "ReadAsync 68", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453912, "dur": 59, "ph": "X", "name": "ReadAsync 16", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453976, "dur": 2, "ph": "X", "name": "ProcessMessages 64", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903453980, "dur": 65, "ph": "X", "name": "ReadAsync 64", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903454047, "dur": 2, "ph": "X", "name": "ProcessMessages 208", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903454051, "dur": 65, "ph": "X", "name": "ReadAsync 208", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903454118, "dur": 7, "ph": "X", "name": "ProcessMessages 192", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903454127, "dur": 71, "ph": "X", "name": "ReadAsync 192", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903454203, "dur": 2, "ph": "X", "name": "ProcessMessages 160", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903454206, "dur": 63, "ph": "X", "name": "ReadAsync 160", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903454272, "dur": 2, "ph": "X", "name": "ProcessMessages 176", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903454274, "dur": 41, "ph": "X", "name": "ReadAsync 176", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903454317, "dur": 1, "ph": "X", "name": "ProcessMessages 112", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903454319, "dur": 84, "ph": "X", "name": "ReadAsync 112", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903454407, "dur": 3, "ph": "X", "name": "ProcessMessages 208", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903454412, "dur": 69, "ph": "X", "name": "ReadAsync 208", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903454483, "dur": 3, "ph": "X", "name": "ProcessMessages 208", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903454488, "dur": 51, "ph": "X", "name": "ReadAsync 208", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903454541, "dur": 2, "ph": "X", "name": "ProcessMessages 148", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903454544, "dur": 91, "ph": "X", "name": "ReadAsync 148", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903454637, "dur": 3, "ph": "X", "name": "ProcessMessages 272", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903454641, "dur": 80, "ph": "X", "name": "ReadAsync 272", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903454728, "dur": 3, "ph": "X", "name": "ProcessMessages 144", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903454733, "dur": 123, "ph": "X", "name": "ReadAsync 144", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903454861, "dur": 2, "ph": "X", "name": "ProcessMessages 176", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903454866, "dur": 97, "ph": "X", "name": "ReadAsync 176", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903454966, "dur": 1, "ph": "X", "name": "ProcessMessages 80", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903454969, "dur": 66, "ph": "X", "name": "ReadAsync 80", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903455038, "dur": 1, "ph": "X", "name": "ProcessMessages 96", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903455041, "dur": 72, "ph": "X", "name": "ReadAsync 96", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903455116, "dur": 4, "ph": "X", "name": "ProcessMessages 164", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903455127, "dur": 82, "ph": "X", "name": "ReadAsync 164", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903455234, "dur": 2, "ph": "X", "name": "ProcessMessages 144", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903455238, "dur": 87, "ph": "X", "name": "ReadAsync 144", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903455331, "dur": 4, "ph": "X", "name": "ProcessMessages 208", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903455337, "dur": 89, "ph": "X", "name": "ReadAsync 208", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903455437, "dur": 2, "ph": "X", "name": "ProcessMessages 208", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903455440, "dur": 104, "ph": "X", "name": "ReadAsync 208", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903455546, "dur": 563, "ph": "X", "name": "ProcessMessages 190", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903456113, "dur": 304, "ph": "X", "name": "ReadAsync 190", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903456421, "dur": 31, "ph": "X", "name": "ProcessMessages 1998", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903456453, "dur": 90, "ph": "X", "name": "ReadAsync 1998", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903456546, "dur": 3, "ph": "X", "name": "ProcessMessages 256", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903456550, "dur": 54, "ph": "X", "name": "ReadAsync 256", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903456607, "dur": 1, "ph": "X", "name": "ProcessMessages 96", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903456610, "dur": 57, "ph": "X", "name": "ReadAsync 96", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903456668, "dur": 1, "ph": "X", "name": "ProcessMessages 144", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903456671, "dur": 74, "ph": "X", "name": "ReadAsync 144", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903456747, "dur": 2, "ph": "X", "name": "ProcessMessages 144", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903456751, "dur": 48, "ph": "X", "name": "ReadAsync 144", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903456800, "dur": 1, "ph": "X", "name": "ProcessMessages 80", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903456803, "dur": 49, "ph": "X", "name": "ReadAsync 80", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903456854, "dur": 1, "ph": "X", "name": "ProcessMessages 112", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903456857, "dur": 77, "ph": "X", "name": "ReadAsync 112", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903456945, "dur": 3, "ph": "X", "name": "ProcessMessages 144", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903456950, "dur": 68, "ph": "X", "name": "ReadAsync 144", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903457019, "dur": 1, "ph": "X", "name": "ProcessMessages 160", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903457022, "dur": 79, "ph": "X", "name": "ReadAsync 160", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903457114, "dur": 2, "ph": "X", "name": "ProcessMessages 96", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903457119, "dur": 150, "ph": "X", "name": "ReadAsync 96", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903457274, "dur": 5, "ph": "X", "name": "ProcessMessages 384", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903457281, "dur": 66, "ph": "X", "name": "ReadAsync 384", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903457349, "dur": 2, "ph": "X", "name": "ProcessMessages 176", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903457352, "dur": 73, "ph": "X", "name": "ReadAsync 176", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903457430, "dur": 2, "ph": "X", "name": "ProcessMessages 112", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903457435, "dur": 79, "ph": "X", "name": "ReadAsync 112", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903457517, "dur": 2, "ph": "X", "name": "ProcessMessages 172", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903457521, "dur": 90, "ph": "X", "name": "ReadAsync 172", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903457615, "dur": 3, "ph": "X", "name": "ProcessMessages 180", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903457619, "dur": 87, "ph": "X", "name": "ReadAsync 180", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903457710, "dur": 2, "ph": "X", "name": "ProcessMessages 128", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903457714, "dur": 69162, "ph": "X", "name": "ReadAsync 128", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903526885, "dur": 19, "ph": "X", "name": "ProcessMessages 502", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903526906, "dur": 571, "ph": "X", "name": "ReadAsync 502", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903527489, "dur": 19, "ph": "X", "name": "ProcessMessages 82", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903527510, "dur": 236, "ph": "X", "name": "ReadAsync 82", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903527753, "dur": 2, "ph": "X", "name": "ProcessMessages 25", "args": {} },
+{ "pid": 7282, "tid": 34359738368, "ts": 1739975903527756, "dur": 4056, "ph": "X", "name": "ReadAsync 25", "args": {} },
+{ "pid": 7282, "tid": 146, "ts": 1739975903533623, "dur": 1427, "ph": "X", "name": "ReadEntireBinlogFromIpcAsync", "args": {} },
+{ "pid": 7282, "tid": 30064771072, "ph": "M", "name": "thread_name", "args": { "name": "BuildAsync" } },
+{ "pid": 7282, "tid": 30064771072, "ts": 1739975903390469, "dur": 141599, "ph": "X", "name": "RunBackend", "args": {} },
+{ "pid": 7282, "tid": 30064771072, "ts": 1739975903390572, "dur": 14385, "ph": "X", "name": "BackendProgram.Start", "args": {} },
+{ "pid": 7282, "tid": 30064771072, "ts": 1739975903532071, "dur": 1264, "ph": "X", "name": "await WaitForAndApplyScriptUpdaters", "args": {} },
+{ "pid": 7282, "tid": 30064771072, "ts": 1739975903533337, "dur": 1, "ph": "X", "name": "await taskToReadBuildProgramOutput", "args": {} },
+{ "pid": 7282, "tid": 146, "ts": 1739975903535054, "dur": 14, "ph": "X", "name": "BuildAsync", "args": {} },
+{ "pid": 7282, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 7282, "tid": 1, "ts": 1739975903341031, "dur": 1690, "ph": "X", "name": "<Add>b__0", "args": {} },
+{ "pid": 7282, "tid": 1, "ts": 1739975903342728, "dur": 39806, "ph": "X", "name": "<SetupBuildRequest>b__0", "args": {} },
+{ "pid": 7282, "tid": 1, "ts": 1739975903382536, "dur": 7907, "ph": "X", "name": "WriteJson", "args": {} },
+{ "pid": 7282, "tid": 146, "ts": 1739975903535072, "dur": 13, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1739975903429621, "dur":53, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739975903429709, "dur":3507, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739975903433227, "dur":1264, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739975903434571, "dur":113, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1739975903434684, "dur":328, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739975903435029, "dur":14144, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739975903449181, "dur":78534, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739975903527873, "dur":2190, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1739975903434833, "dur":14355, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739975903449190, "dur":2117, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739975903451524, "dur":163, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/angel/Downloads/Interfaz_AN5_UNITY_5_FEBRERO/Interfaz_AN5_UNITY/Interfaz_AN5/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739975903451741, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/angel/Downloads/Interfaz_AN5_UNITY_5_FEBRERO/Interfaz_AN5_UNITY/Interfaz_AN5/Library/Bee/PlayerScriptAssemblies/Unity.AdaptivePerformance.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739975903451804, "dur":270, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/angel/Downloads/Interfaz_AN5_UNITY_5_FEBRERO/Interfaz_AN5_UNITY/Interfaz_AN5/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739975903452074, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/angel/Downloads/Interfaz_AN5_UNITY_5_FEBRERO/Interfaz_AN5_UNITY/Interfaz_AN5/Library/Bee/PlayerScriptAssemblies/Unity.Robotics.ROSTCPConnector.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739975903452150, "dur":171, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/angel/Downloads/Interfaz_AN5_UNITY_5_FEBRERO/Interfaz_AN5_UNITY/Interfaz_AN5/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739975903452321, "dur":157, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/angel/Downloads/Interfaz_AN5_UNITY_5_FEBRERO/Interfaz_AN5_UNITY/Interfaz_AN5/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739975903452478, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/angel/Downloads/Interfaz_AN5_UNITY_5_FEBRERO/Interfaz_AN5_UNITY/Interfaz_AN5/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739975903452559, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/angel/Downloads/Interfaz_AN5_UNITY_5_FEBRERO/Interfaz_AN5_UNITY/Interfaz_AN5/Library/Bee/PlayerScriptAssemblies/Unity.Robotics.UrdfImporter.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739975903452639, "dur":187, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/angel/Downloads/Interfaz_AN5_UNITY_5_FEBRERO/Interfaz_AN5_UNITY/Interfaz_AN5/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739975903452826, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/angel/Downloads/Interfaz_AN5_UNITY_5_FEBRERO/Interfaz_AN5_UNITY/Interfaz_AN5/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739975903452908, "dur":71, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/angel/Downloads/Interfaz_AN5_UNITY_5_FEBRERO/Interfaz_AN5_UNITY/Interfaz_AN5/Library/Bee/PlayerScriptAssemblies/Unity.Robotics.ROSTCPConnector.Messages.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739975903451388, "dur":1805, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/LinuxPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1739975903453364, "dur":97, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739975903453621, "dur":73252, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1739975903527502, "dur":168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/angel/UnityEjecutable/AN5interfaz_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1739975903434843, "dur":14352, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739975903449198, "dur":423, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739975903449621, "dur":1740, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739975903451373, "dur":570, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739975903451948, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739975903452077, "dur":220, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739975903452622, "dur":98, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so" }}
+,{ "pid":12345, "tid":2, "ts":1739975903452720, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libtest_msgs_nested__rosidl_typesupport_introspection_c_native.so" }}
+,{ "pid":12345, "tid":2, "ts":1739975903452939, "dur":68, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libtest_msgs_nested__rosidl_typesupport_introspection_c_native.so" }}
+,{ "pid":12345, "tid":2, "ts":1739975903453008, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libgeometry_msgs_polygon_stamped__rosidl_typesupport_introspection_c_native.so" }}
+,{ "pid":12345, "tid":2, "ts":1739975903453083, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libstd_msgs_u_int8__rosidl_typesupport_introspection_c_native.so" }}
+,{ "pid":12345, "tid":2, "ts":1739975903453314, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739975903453416, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739975903453685, "dur":74, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libaction_msgs_goal_info__rosidl_typesupport_c_native.so" }}
+,{ "pid":12345, "tid":2, "ts":1739975903453844, "dur":143, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libvisualization_msgs_interactive_marker_pose__rosidl_typesupport_c_native.so" }}
+,{ "pid":12345, "tid":2, "ts":1739975903454102, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739975903454266, "dur":50, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/System.Runtime.InteropServices.RuntimeInformation.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739975903454341, "dur":62, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739975903454425, "dur":110, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/ros2cs_common.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739975903454584, "dur":115, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739975903454808, "dur":1012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/angel/UnityEjecutable/AN5interfaz_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739975903456035, "dur":67, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739975903456128, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libstd_msgs_float64__rosidl_typesupport_fastrtps_c_native.so" }}
+,{ "pid":12345, "tid":2, "ts":1739975903456182, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739975903456244, "dur":56, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libstd_msgs_float64__rosidl_typesupport_fastrtps_c_native.so" }}
+,{ "pid":12345, "tid":2, "ts":1739975903456306, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739975903456423, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libstd_msgs_float32_multi_array__rosidl_typesupport_c_native.so" }}
+,{ "pid":12345, "tid":2, "ts":1739975903456604, "dur":53, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libtest_msgs_bounded_sequences__rosidl_typesupport_c_native.so" }}
+,{ "pid":12345, "tid":2, "ts":1739975903456658, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/librcl_interfaces__rosidl_typesupport_cpp.so" }}
+,{ "pid":12345, "tid":2, "ts":1739975903456725, "dur":106, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/librcl_interfaces__rosidl_typesupport_cpp.so" }}
+,{ "pid":12345, "tid":2, "ts":1739975903456936, "dur":97, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739975903457130, "dur":97, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739975903457244, "dur":72, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739975903457472, "dur":89, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libgeometry_msgs_twist_stamped__rosidl_typesupport_fastrtps_c_native.so" }}
+,{ "pid":12345, "tid":2, "ts":1739975903457577, "dur":114, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libsensor_msgs__rosidl_typesupport_introspection_c.so" }}
+,{ "pid":12345, "tid":2, "ts":1739975903457692, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libstd_msgs_bool__rosidl_typesupport_fastrtps_c_native.so" }}
+,{ "pid":12345, "tid":2, "ts":1739975903457765, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739975903457841, "dur":74, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libstd_msgs_bool__rosidl_typesupport_fastrtps_c_native.so" }}
+,{ "pid":12345, "tid":2, "ts":1739975903457915, "dur":69828, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739975903434855, "dur":14347, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739975903449205, "dur":307, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739975903449513, "dur":1802, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739975903451341, "dur":422, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739975903451787, "dur":186, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739975903451978, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739975903452112, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739975903452312, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libsensor_msgs__rosidl_typesupport_fastrtps_c.so" }}
+,{ "pid":12345, "tid":3, "ts":1739975903452396, "dur":55, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libgeometry_msgs_polygon__rosidl_typesupport_introspection_c_native.so" }}
+,{ "pid":12345, "tid":3, "ts":1739975903452531, "dur":128, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so" }}
+,{ "pid":12345, "tid":3, "ts":1739975903452716, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libsensor_msgs_camera_info__rosidl_typesupport_introspection_c_native.so" }}
+,{ "pid":12345, "tid":3, "ts":1739975903453076, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739975903453214, "dur":76, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libdiagnostic_msgs__rosidl_typesupport_fastrtps_c.so" }}
+,{ "pid":12345, "tid":3, "ts":1739975903453291, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/liblifecycle_msgs__rosidl_typesupport_fastrtps_cpp.so" }}
+,{ "pid":12345, "tid":3, "ts":1739975903453400, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739975903453586, "dur":57, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libnav_msgs_odometry__rosidl_typesupport_introspection_c_native.so" }}
+,{ "pid":12345, "tid":3, "ts":1739975903453662, "dur":60, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libgeometry_msgs_twist_with_covariance__rosidl_typesupport_fastrtps_c_native.so" }}
+,{ "pid":12345, "tid":3, "ts":1739975903453953, "dur":55, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so" }}
+,{ "pid":12345, "tid":3, "ts":1739975903454123, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739975903454475, "dur":139, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/System.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1739975903454631, "dur":56, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1739975903454794, "dur":192, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/std_msgs_assembly.dll" }}
+,{ "pid":12345, "tid":3, "ts":1739975903454988, "dur":98, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/angel/Downloads/Interfaz_AN5_UNITY_5_FEBRERO/Interfaz_AN5_UNITY/Interfaz_AN5/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1739975903454987, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1739975903455127, "dur":131, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/angel/Downloads/Interfaz_AN5_UNITY_5_FEBRERO/Interfaz_AN5_UNITY/Interfaz_AN5/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1739975903455127, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1739975903455281, "dur":551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/angel/UnityEjecutable/AN5interfaz_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1739975903455901, "dur":60, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.StreamingModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1739975903456066, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libstd_msgs_empty__rosidl_typesupport_c_native.so" }}
+,{ "pid":12345, "tid":3, "ts":1739975903456117, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739975903456300, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739975903456368, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libsensor_msgs_region_of_interest__rosidl_typesupport_c_native.so" }}
+,{ "pid":12345, "tid":3, "ts":1739975903456496, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739975903456620, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739975903456788, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libvisualization_msgs_marker__rosidl_typesupport_introspection_c_native.so" }}
+,{ "pid":12345, "tid":3, "ts":1739975903456892, "dur":66, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libvisualization_msgs_marker__rosidl_typesupport_introspection_c_native.so" }}
+,{ "pid":12345, "tid":3, "ts":1739975903457078, "dur":86, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/librcl_interfaces_parameter_descriptor__rosidl_typesupport_introspection_c_native.so" }}
+,{ "pid":12345, "tid":3, "ts":1739975903457184, "dur":142, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1739975903457480, "dur":113, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libsensor_msgs_multi_echo_laser_scan__rosidl_typesupport_c_native.so" }}
+,{ "pid":12345, "tid":3, "ts":1739975903457614, "dur":117, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libtrajectory_msgs__rosidl_typesupport_cpp.so" }}
+,{ "pid":12345, "tid":3, "ts":1739975903457738, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739975903457868, "dur":69908, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739975903434944, "dur":14293, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739975903449239, "dur":343, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739975903449582, "dur":1808, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739975903451393, "dur":370, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739975903451771, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739975903451832, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739975903452087, "dur":212, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739975903452545, "dur":62, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libgeometry_msgs_vector3__rosidl_typesupport_fastrtps_c_native.so" }}
+,{ "pid":12345, "tid":4, "ts":1739975903452696, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739975903452890, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739975903452944, "dur":67, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libstd_msgs_int16__rosidl_typesupport_fastrtps_c_native.so" }}
+,{ "pid":12345, "tid":4, "ts":1739975903453011, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libstd_msgs__rosidl_typesupport_introspection_cpp.so" }}
+,{ "pid":12345, "tid":4, "ts":1739975903453064, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739975903453317, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739975903453386, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739975903453553, "dur":54, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libstatic_transform_broadcaster_node.so" }}
+,{ "pid":12345, "tid":4, "ts":1739975903453636, "dur":59, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libstd_msgs_u_int8__rosidl_typesupport_fastrtps_c_native.so" }}
+,{ "pid":12345, "tid":4, "ts":1739975903453844, "dur":84, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libvisualization_msgs_menu_entry__rosidl_typesupport_c_native.so" }}
+,{ "pid":12345, "tid":4, "ts":1739975903454046, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libgeometry_msgs_accel__rosidl_typesupport_introspection_c_native.so" }}
+,{ "pid":12345, "tid":4, "ts":1739975903454123, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739975903454375, "dur":136, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739975903454531, "dur":93, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/Unity.AdaptivePerformance.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739975903454734, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739975903454856, "dur":68, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/lifecycle_msgs_assembly.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1739975903454925, "dur":134, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/angel/Downloads/Interfaz_AN5_UNITY_5_FEBRERO/Interfaz_AN5_UNITY/Interfaz_AN5/Library/Bee/PlayerScriptAssemblies/Unity.Profiling.Core.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1739975903454924, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/Unity.Profiling.Core.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1739975903455157, "dur":137, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/angel/Downloads/Interfaz_AN5_UNITY_5_FEBRERO/Interfaz_AN5_UNITY/Interfaz_AN5/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1739975903455157, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1739975903455314, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739975903455639, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739975903455792, "dur":61, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.XRModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1739975903455915, "dur":252, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739975903456178, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739975903456335, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libshape_msgs_mesh__rosidl_typesupport_introspection_c_native.so" }}
+,{ "pid":12345, "tid":4, "ts":1739975903456405, "dur":414, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libshape_msgs_mesh__rosidl_typesupport_introspection_c_native.so" }}
+,{ "pid":12345, "tid":4, "ts":1739975903456863, "dur":272, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libtf2_msgs__rosidl_typesupport_c.so" }}
+,{ "pid":12345, "tid":4, "ts":1739975903457170, "dur":203, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libtrajectory_msgs__rosidl_typesupport_fastrtps_cpp.so" }}
+,{ "pid":12345, "tid":4, "ts":1739975903457558, "dur":105, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libshape_msgs__python.so" }}
+,{ "pid":12345, "tid":4, "ts":1739975903457683, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739975903457839, "dur":69921, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739975903434872, "dur":14339, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739975903449214, "dur":420, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739975903449634, "dur":1687, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739975903451351, "dur":416, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739975903451774, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739975903451881, "dur":277, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739975903452209, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739975903452409, "dur":64, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libstd_srvs__rosidl_typesupport_fastrtps_c.so" }}
+,{ "pid":12345, "tid":5, "ts":1739975903452484, "dur":101, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libsensor_msgs_point_cloud__rosidl_typesupport_introspection_c_native.so" }}
+,{ "pid":12345, "tid":5, "ts":1739975903452650, "dur":75, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libsensor_msgs_joy_feedback__rosidl_typesupport_introspection_c_native.so" }}
+,{ "pid":12345, "tid":5, "ts":1739975903452726, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libsensor_msgs_joy_feedback__rosidl_typesupport_c_native.so" }}
+,{ "pid":12345, "tid":5, "ts":1739975903452935, "dur":58, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libgeometry_msgs_pose2_d__rosidl_typesupport_introspection_c_native.so" }}
+,{ "pid":12345, "tid":5, "ts":1739975903452994, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libsensor_msgs_channel_float32__rosidl_typesupport_introspection_c_native.so" }}
+,{ "pid":12345, "tid":5, "ts":1739975903453358, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739975903453625, "dur":78, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libtest_msgs_constants__rosidl_typesupport_c_native.so" }}
+,{ "pid":12345, "tid":5, "ts":1739975903453834, "dur":132, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libstd_msgs_float32_multi_array__rosidl_typesupport_introspection_c_native.so" }}
+,{ "pid":12345, "tid":5, "ts":1739975903454116, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739975903454204, "dur":90, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/System.Memory.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739975903454317, "dur":95, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.AndroidJNIModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1739975903454438, "dur":53, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.AIModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1739975903454507, "dur":82, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739975903454592, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739975903454730, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739975903454854, "dur":108, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/MessageGeneration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739975903454964, "dur":219, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/angel/Downloads/Interfaz_AN5_UNITY_5_FEBRERO/Interfaz_AN5_UNITY/Interfaz_AN5/Library/Bee/PlayerScriptAssemblies/vhacd.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1739975903454963, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/vhacd.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1739975903455234, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739975903455326, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739975903455511, "dur":172, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/angel/Downloads/Interfaz_AN5_UNITY_5_FEBRERO/Interfaz_AN5_UNITY/Interfaz_AN5/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1739975903455510, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1739975903455684, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739975903455758, "dur":131, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1739975903455907, "dur":63, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1739975903456183, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739975903456274, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739975903456406, "dur":71, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/librcl_interfaces__rosidl_typesupport_c.so" }}
+,{ "pid":12345, "tid":5, "ts":1739975903456485, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739975903456774, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739975903456874, "dur":78, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739975903456994, "dur":194, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739975903457216, "dur":252, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739975903457530, "dur":99, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libtest_msgs_basic_types__rosidl_typesupport_c_native.so" }}
+,{ "pid":12345, "tid":5, "ts":1739975903457657, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libstd_msgs_int32__rosidl_typesupport_c_native.so" }}
+,{ "pid":12345, "tid":5, "ts":1739975903457849, "dur":69917, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739975903434895, "dur":14324, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739975903449222, "dur":254, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739975903449477, "dur":1896, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739975903451380, "dur":466, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739975903451855, "dur":238, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739975903452582, "dur":50, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libgeometry_msgs_pose_with_covariance_stamped__rosidl_typesupport_fastrtps_c_native.so" }}
+,{ "pid":12345, "tid":6, "ts":1739975903452712, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libdiagnostic_msgs__rosidl_typesupport_fastrtps_cpp.so" }}
+,{ "pid":12345, "tid":6, "ts":1739975903452981, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/librcl_interfaces_parameter_value__rosidl_typesupport_fastrtps_c_native.so" }}
+,{ "pid":12345, "tid":6, "ts":1739975903453293, "dur":375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/librcl_interfaces_parameter__rosidl_typesupport_fastrtps_c_native.so" }}
+,{ "pid":12345, "tid":6, "ts":1739975903453693, "dur":52, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/librcl_interfaces_parameter__rosidl_typesupport_fastrtps_c_native.so" }}
+,{ "pid":12345, "tid":6, "ts":1739975903453780, "dur":58, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libsensor_msgs_point_field__rosidl_typesupport_introspection_c_native.so" }}
+,{ "pid":12345, "tid":6, "ts":1739975903453933, "dur":90, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libcomposition_interfaces__rosidl_typesupport_fastrtps_cpp.so" }}
+,{ "pid":12345, "tid":6, "ts":1739975903454071, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739975903454212, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739975903454381, "dur":272, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739975903454658, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739975903454766, "dur":106, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739975903454975, "dur":198, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/angel/Downloads/Interfaz_AN5_UNITY_5_FEBRERO/Interfaz_AN5_UNITY/Interfaz_AN5/Library/Bee/PlayerScriptAssemblies/Unity.Robotics.ROSTCPConnector.MessageGeneration.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1739975903454974, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/Unity.Robotics.ROSTCPConnector.MessageGeneration.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1739975903455217, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739975903455317, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739975903455634, "dur":52, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.IMGUIModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1739975903455687, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/angel/Unity/Hub/Editor/2022.3.42f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.CoreModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1739975903455687, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.CoreModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1739975903455755, "dur":68, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.CoreModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1739975903455912, "dur":71, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.UmbraModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1739975903456142, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libstereo_msgs__rosidl_generator_c.so" }}
+,{ "pid":12345, "tid":6, "ts":1739975903456350, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so" }}
+,{ "pid":12345, "tid":6, "ts":1739975903456424, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739975903456550, "dur":55, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libsensor_msgs_laser_echo__rosidl_typesupport_introspection_c_native.so" }}
+,{ "pid":12345, "tid":6, "ts":1739975903456612, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739975903456752, "dur":61, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libtest_msgs_arrays__rosidl_typesupport_c_native.so" }}
+,{ "pid":12345, "tid":6, "ts":1739975903456814, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/librcl_interfaces_floating_point_range__rosidl_typesupport_introspection_c_native.so" }}
+,{ "pid":12345, "tid":6, "ts":1739975903456892, "dur":169, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/librcl_interfaces_floating_point_range__rosidl_typesupport_introspection_c_native.so" }}
+,{ "pid":12345, "tid":6, "ts":1739975903457096, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739975903457181, "dur":68, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739975903457252, "dur":471, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739975903457741, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libnav_msgs_grid_cells__rosidl_typesupport_introspection_c_native.so" }}
+,{ "pid":12345, "tid":6, "ts":1739975903457856, "dur":69863, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739975903434916, "dur":14311, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739975903449229, "dur":394, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739975903449623, "dur":1743, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739975903451378, "dur":459, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739975903451847, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739975903452442, "dur":118, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libtest_msgs_defaults__rosidl_typesupport_c_native.so" }}
+,{ "pid":12345, "tid":7, "ts":1739975903452591, "dur":109, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libunique_identifier_msgs__rosidl_typesupport_c.so" }}
+,{ "pid":12345, "tid":7, "ts":1739975903452701, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libunique_identifier_msgs__rosidl_typesupport_cpp.so" }}
+,{ "pid":12345, "tid":7, "ts":1739975903452999, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libstd_msgs_float32__rosidl_typesupport_fastrtps_c_native.so" }}
+,{ "pid":12345, "tid":7, "ts":1739975903453053, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739975903453132, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739975903453297, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libassimp.so" }}
+,{ "pid":12345, "tid":7, "ts":1739975903453373, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libdiagnostic_msgs_diagnostic_status__rosidl_typesupport_fastrtps_c_native.so" }}
+,{ "pid":12345, "tid":7, "ts":1739975903453755, "dur":58, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libstatistics_msgs__rosidl_typesupport_introspection_c.so" }}
+,{ "pid":12345, "tid":7, "ts":1739975903453821, "dur":61, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libunique_identifier_msgs__python.so" }}
+,{ "pid":12345, "tid":7, "ts":1739975903454073, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739975903454241, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739975903454296, "dur":149, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/System.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739975903454487, "dur":67, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739975903454665, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739975903454779, "dur":72, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739975903455034, "dur":170, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/angel/Downloads/Interfaz_AN5_UNITY_5_FEBRERO/Interfaz_AN5_UNITY/Interfaz_AN5/Library/Bee/PlayerScriptAssemblies/Unity.AdaptivePerformance.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1739975903455033, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/Unity.AdaptivePerformance.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1739975903455250, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739975903455452, "dur":68, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1739975903455662, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739975903455761, "dur":104, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.ClothModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1739975903455883, "dur":160, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.UnityTestProtocolModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1739975903456197, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/librcl_interfaces_parameter_event__rosidl_typesupport_c_native.so" }}
+,{ "pid":12345, "tid":7, "ts":1739975903456345, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/librcl_interfaces_parameter_descriptor__rosidl_typesupport_fastrtps_c_native.so" }}
+,{ "pid":12345, "tid":7, "ts":1739975903456427, "dur":63, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/librcl_interfaces_parameter_descriptor__rosidl_typesupport_fastrtps_c_native.so" }}
+,{ "pid":12345, "tid":7, "ts":1739975903456545, "dur":65, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libunique_identifier_msgs__rosidl_typesupport_fastrtps_c.so" }}
+,{ "pid":12345, "tid":7, "ts":1739975903456615, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739975903456771, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/librcl_interfaces__rosidl_typesupport_fastrtps_c.so" }}
+,{ "pid":12345, "tid":7, "ts":1739975903456917, "dur":94, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739975903457042, "dur":68, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739975903457113, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739975903457215, "dur":119, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739975903457345, "dur":51, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739975903457673, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libvisualization_msgs_interactive_marker_control__rosidl_typesupport_introspection_c_native.so" }}
+,{ "pid":12345, "tid":7, "ts":1739975903457775, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libsensor_msgs_compressed_image__rosidl_typesupport_fastrtps_c_native.so" }}
+,{ "pid":12345, "tid":7, "ts":1739975903457898, "dur":69855, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739975903434937, "dur":14296, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739975903449235, "dur":210, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739975903449446, "dur":1882, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739975903451342, "dur":426, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739975903451781, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739975903451884, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739975903451981, "dur":244, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739975903452246, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739975903452405, "dur":59, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libstd_srvs__rosidl_typesupport_cpp.so" }}
+,{ "pid":12345, "tid":8, "ts":1739975903452601, "dur":86, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libstd_msgs__rosidl_typesupport_fastrtps_c.so" }}
+,{ "pid":12345, "tid":8, "ts":1739975903452741, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libvisualization_msgs_image_marker__rosidl_typesupport_fastrtps_c_native.so" }}
+,{ "pid":12345, "tid":8, "ts":1739975903452967, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739975903453053, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libsensor_msgs_magnetic_field__rosidl_typesupport_c_native.so" }}
+,{ "pid":12345, "tid":8, "ts":1739975903453112, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739975903453214, "dur":89, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libsensor_msgs_magnetic_field__rosidl_typesupport_c_native.so" }}
+,{ "pid":12345, "tid":8, "ts":1739975903453411, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739975903453677, "dur":104, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libaction_msgs_goal_status_array__rosidl_typesupport_introspection_c_native.so" }}
+,{ "pid":12345, "tid":8, "ts":1739975903454124, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739975903454469, "dur":53, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1739975903454539, "dur":136, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":8, "ts":1739975903454677, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739975903454840, "dur":52, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/Unity.Robotics.UrdfImporter.dll" }}
+,{ "pid":12345, "tid":8, "ts":1739975903454981, "dur":335, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/angel/Downloads/Interfaz_AN5_UNITY_5_FEBRERO/Interfaz_AN5_UNITY/Interfaz_AN5/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1739975903454981, "dur":336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1739975903455457, "dur":163, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/visualization_msgs_assembly.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1739975903455673, "dur":91, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/angel/Unity/Hub/Editor/2022.3.42f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.PhysicsModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1739975903455673, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.PhysicsModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1739975903455800, "dur":139, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.WindModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1739975903456081, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libstd_msgs_byte_multi_array__rosidl_typesupport_fastrtps_c_native.so" }}
+,{ "pid":12345, "tid":8, "ts":1739975903456157, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/librcl_interfaces_floating_point_range__rosidl_typesupport_c_native.so" }}
+,{ "pid":12345, "tid":8, "ts":1739975903456227, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libgeometry_msgs_transform__rosidl_typesupport_c_native.so" }}
+,{ "pid":12345, "tid":8, "ts":1739975903456323, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739975903456467, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739975903456658, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739975903456825, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739975903456900, "dur":87, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/librcl_interfaces_log__rosidl_typesupport_fastrtps_c_native.so" }}
+,{ "pid":12345, "tid":8, "ts":1739975903457034, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739975903457170, "dur":68, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1739975903457298, "dur":58, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1739975903457551, "dur":206, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libgeometry_msgs_point_stamped__rosidl_typesupport_c_native.so" }}
+,{ "pid":12345, "tid":8, "ts":1739975903457764, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739975903457889, "dur":69845, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739975903434962, "dur":14280, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739975903449244, "dur":390, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739975903449634, "dur":1678, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739975903451354, "dur":333, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739975903451706, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739975903451796, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739975903451974, "dur":185, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739975903452248, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739975903452365, "dur":176, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libgeometry_msgs_accel_with_covariance__rosidl_typesupport_c_native.so" }}
+,{ "pid":12345, "tid":9, "ts":1739975903452575, "dur":71, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libsensor_msgs_multi_echo_laser_scan__rosidl_typesupport_introspection_c_native.so" }}
+,{ "pid":12345, "tid":9, "ts":1739975903452705, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libstatistics_msgs__rosidl_generator_c.so" }}
+,{ "pid":12345, "tid":9, "ts":1739975903452960, "dur":60, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libstd_msgs_byte__rosidl_typesupport_c_native.so" }}
+,{ "pid":12345, "tid":9, "ts":1739975903453043, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so" }}
+,{ "pid":12345, "tid":9, "ts":1739975903453326, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739975903453504, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739975903453563, "dur":91, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libsensor_msgs_compressed_image__rosidl_typesupport_c_native.so" }}
+,{ "pid":12345, "tid":9, "ts":1739975903453699, "dur":65, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libtf2_msgs_tf2_error__rosidl_typesupport_fastrtps_c_native.so" }}
+,{ "pid":12345, "tid":9, "ts":1739975903453836, "dur":120, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/liblifecycle_msgs_state__rosidl_typesupport_introspection_c_native.so" }}
+,{ "pid":12345, "tid":9, "ts":1739975903453985, "dur":68, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libstd_msgs_int8_multi_array__rosidl_typesupport_fastrtps_c_native.so" }}
+,{ "pid":12345, "tid":9, "ts":1739975903454086, "dur":182, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739975903454332, "dur":63, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739975903454421, "dur":58, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739975903454496, "dur":70, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739975903454631, "dur":80, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739975903454760, "dur":153, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/geometry_msgs_assembly.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739975903455008, "dur":210, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739975903455241, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739975903455354, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739975903455532, "dur":66, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1739975903455650, "dur":146, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/angel/Downloads/Interfaz_AN5_UNITY_5_FEBRERO/Interfaz_AN5_UNITY/Interfaz_AN5/Library/Bee/PlayerScriptAssemblies/UnityEngine.SpatialTracking.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1739975903455649, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.SpatialTracking.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1739975903455828, "dur":69, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.VideoModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1739975903455909, "dur":96, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.UIModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1739975903456124, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739975903456426, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libunique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.so" }}
+,{ "pid":12345, "tid":9, "ts":1739975903456507, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/librcl_interfaces_integer_range__rosidl_typesupport_c_native.so" }}
+,{ "pid":12345, "tid":9, "ts":1739975903456651, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libstd_msgs_u_int16_multi_array__rosidl_typesupport_introspection_c_native.so" }}
+,{ "pid":12345, "tid":9, "ts":1739975903456937, "dur":110, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739975903457161, "dur":114, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739975903457392, "dur":110, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libgeometry_msgs_pose__rosidl_typesupport_introspection_c_native.so" }}
+,{ "pid":12345, "tid":9, "ts":1739975903457518, "dur":82, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libstd_msgs_string__rosidl_typesupport_introspection_c_native.so" }}
+,{ "pid":12345, "tid":9, "ts":1739975903457614, "dur":67, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/librcl_interfaces_list_parameters_result__rosidl_typesupport_c_native.so" }}
+,{ "pid":12345, "tid":9, "ts":1739975903457682, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libgeometry_msgs_inertia_stamped__rosidl_typesupport_fastrtps_c_native.so" }}
+,{ "pid":12345, "tid":9, "ts":1739975903457846, "dur":69917, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739975903434982, "dur":14270, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739975903449256, "dur":343, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739975903449599, "dur":1752, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739975903451356, "dur":330, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739975903451696, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739975903451797, "dur":246, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739975903452160, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739975903452310, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/liblifecycle_msgs_state__rosidl_typesupport_c_native.so" }}
+,{ "pid":12345, "tid":10, "ts":1739975903452419, "dur":58, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libgeometry_msgs_inertia__rosidl_typesupport_fastrtps_c_native.so" }}
+,{ "pid":12345, "tid":10, "ts":1739975903452514, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739975903452734, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libgeometry_msgs_twist_with_covariance__rosidl_typesupport_c_native.so" }}
+,{ "pid":12345, "tid":10, "ts":1739975903453025, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libvisualization_msgs_menu_entry__rosidl_typesupport_introspection_c_native.so" }}
+,{ "pid":12345, "tid":10, "ts":1739975903453097, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739975903453191, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libstd_msgs__rosidl_typesupport_introspection_c.so" }}
+,{ "pid":12345, "tid":10, "ts":1739975903453396, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739975903453766, "dur":144, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libnav_msgs__rosidl_typesupport_fastrtps_c.so" }}
+,{ "pid":12345, "tid":10, "ts":1739975903454105, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739975903454278, "dur":110, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/System.Reflection.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739975903454446, "dur":96, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/Unity.Profiling.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739975903454685, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739975903454777, "dur":162, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/nav_msgs_assembly.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739975903454940, "dur":227, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/angel/Downloads/Interfaz_AN5_UNITY_5_FEBRERO/Interfaz_AN5_UNITY/Interfaz_AN5/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1739975903454940, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1739975903455189, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739975903455405, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/angel/Unity/Hub/Editor/2022.3.42f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.TextRenderingModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1739975903455405, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.TextRenderingModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1739975903455545, "dur":241, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/angel/Downloads/Interfaz_AN5_UNITY_5_FEBRERO/Interfaz_AN5_UNITY/Interfaz_AN5/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1739975903455545, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1739975903455830, "dur":55, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.VirtualTexturingModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1739975903455930, "dur":65, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.VRModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1739975903456059, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libsensor_msgs_multi_echo_laser_scan__rosidl_typesupport_fastrtps_c_native.so" }}
+,{ "pid":12345, "tid":10, "ts":1739975903456207, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libsensor_msgs_image__rosidl_typesupport_introspection_c_native.so" }}
+,{ "pid":12345, "tid":10, "ts":1739975903456315, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739975903456463, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so" }}
+,{ "pid":12345, "tid":10, "ts":1739975903456674, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739975903456747, "dur":52, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so" }}
+,{ "pid":12345, "tid":10, "ts":1739975903456806, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739975903456898, "dur":175, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739975903457117, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739975903457179, "dur":246, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739975903457425, "dur":102, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739975903457541, "dur":160, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libshape_msgs__rosidl_typesupport_introspection_c.so" }}
+,{ "pid":12345, "tid":10, "ts":1739975903457806, "dur":89, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libtest_msgs_builtins__rosidl_typesupport_introspection_c_native.so" }}
+,{ "pid":12345, "tid":10, "ts":1739975903457895, "dur":69817, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739975903435004, "dur":14255, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739975903449261, "dur":339, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739975903449600, "dur":1733, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739975903451345, "dur":490, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739975903451846, "dur":201, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739975903452107, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739975903452179, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739975903452285, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739975903452406, "dur":88, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/liblifecycle_msgs_transition__rosidl_typesupport_fastrtps_c_native.so" }}
+,{ "pid":12345, "tid":11, "ts":1739975903452702, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libstd_msgs_u_int64_multi_array__rosidl_typesupport_fastrtps_c_native.so" }}
+,{ "pid":12345, "tid":11, "ts":1739975903452976, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libstatistics_msgs_statistic_data_point__rosidl_typesupport_c_native.so" }}
+,{ "pid":12345, "tid":11, "ts":1739975903453426, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739975903453665, "dur":182, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libactionlib_msgs_goal_status__rosidl_typesupport_introspection_c_native.so" }}
+,{ "pid":12345, "tid":11, "ts":1739975903453934, "dur":51, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libsensor_msgs__rosidl_typesupport_cpp.so" }}
+,{ "pid":12345, "tid":11, "ts":1739975903454412, "dur":72, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739975903454540, "dur":96, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/sensor_msgs_assembly.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739975903454670, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739975903454742, "dur":71, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/rosgraph_msgs_assembly.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739975903454835, "dur":95, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/vhacd.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739975903454931, "dur":282, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/angel/Downloads/Interfaz_AN5_UNITY_5_FEBRERO/Interfaz_AN5_UNITY/Interfaz_AN5/Library/Bee/PlayerScriptAssemblies/Unity.Robotics.ROSTCPConnector.Messages.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1739975903454931, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/Unity.Robotics.ROSTCPConnector.Messages.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1739975903455274, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739975903455360, "dur":50, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/rosgraph_msgs_assembly.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1739975903455607, "dur":52, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.LocalizationModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1739975903455661, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/angel/Downloads/Interfaz_AN5_UNITY_5_FEBRERO/Interfaz_AN5_UNITY/Interfaz_AN5/Library/Bee/PlayerScriptAssemblies/Unity.Robotics.ROSTCPConnector.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1739975903455660, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/Unity.Robotics.ROSTCPConnector.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1739975903455757, "dur":76, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/Unity.Robotics.ROSTCPConnector.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1739975903455872, "dur":202, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.VFXModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1739975903456075, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so" }}
+,{ "pid":12345, "tid":11, "ts":1739975903456329, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libgeometry_msgs_pose__rosidl_typesupport_c_native.so" }}
+,{ "pid":12345, "tid":11, "ts":1739975903456645, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739975903456708, "dur":50, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libaction_msgs_goal_info__rosidl_typesupport_introspection_c_native.so" }}
+,{ "pid":12345, "tid":11, "ts":1739975903456889, "dur":52, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739975903456985, "dur":163, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739975903457168, "dur":52, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739975903457224, "dur":485, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739975903457718, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libstatistics_msgs_statistic_data_point__rosidl_typesupport_fastrtps_c_native.so" }}
+,{ "pid":12345, "tid":11, "ts":1739975903457875, "dur":69883, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739975903435023, "dur":14242, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739975903449267, "dur":333, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739975903449600, "dur":1757, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739975903451367, "dur":322, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739975903451714, "dur":194, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739975903451919, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739975903452002, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739975903452077, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739975903452406, "dur":63, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libgeometry_msgs_inertia_stamped__rosidl_typesupport_c_native.so" }}
+,{ "pid":12345, "tid":12, "ts":1739975903452480, "dur":94, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libtest_msgs__rosidl_typesupport_cpp.so" }}
+,{ "pid":12345, "tid":12, "ts":1739975903452709, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libtest_msgs_nested__rosidl_typesupport_fastrtps_c_native.so" }}
+,{ "pid":12345, "tid":12, "ts":1739975903452989, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libdiagnostic_msgs_key_value__rosidl_typesupport_c_native.so" }}
+,{ "pid":12345, "tid":12, "ts":1739975903453188, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libgeometry_msgs_quaternion_stamped__rosidl_typesupport_c_native.so" }}
+,{ "pid":12345, "tid":12, "ts":1739975903453268, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libtest_msgs_builtins__rosidl_typesupport_c_native.so" }}
+,{ "pid":12345, "tid":12, "ts":1739975903453370, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libgeometry_msgs__rosidl_generator_c.so" }}
+,{ "pid":12345, "tid":12, "ts":1739975903453569, "dur":69, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libsensor_msgs_joy__rosidl_typesupport_c_native.so" }}
+,{ "pid":12345, "tid":12, "ts":1739975903453773, "dur":53, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libdiagnostic_msgs_key_value__rosidl_typesupport_fastrtps_c_native.so" }}
+,{ "pid":12345, "tid":12, "ts":1739975903454005, "dur":66, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libstd_msgs_u_int64_multi_array__rosidl_typesupport_introspection_c_native.so" }}
+,{ "pid":12345, "tid":12, "ts":1739975903454107, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739975903454269, "dur":51, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/Newtonsoft.Json.Bson.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739975903454383, "dur":57, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/System.Threading.Tasks.Extensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739975903454507, "dur":92, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/Unity.Robotics.ROSTCPConnector.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739975903454668, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739975903454920, "dur":50, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/nav_msgs_assembly.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1739975903454971, "dur":240, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/angel/Downloads/Interfaz_AN5_UNITY_5_FEBRERO/Interfaz_AN5_UNITY/Interfaz_AN5/Library/Bee/PlayerScriptAssemblies/Unity.Robotics.UrdfImporter.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1739975903454970, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/Unity.Robotics.UrdfImporter.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1739975903455339, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739975903455450, "dur":393, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/stereo_msgs_assembly.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1739975903456003, "dur":84, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.UnityConnectModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1739975903456189, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libgeometry_msgs_quaternion__rosidl_typesupport_fastrtps_c_native.so" }}
+,{ "pid":12345, "tid":12, "ts":1739975903456457, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739975903456626, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libsensor_msgs_time_reference__rosidl_typesupport_fastrtps_c_native.so" }}
+,{ "pid":12345, "tid":12, "ts":1739975903456716, "dur":50, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libsensor_msgs_time_reference__rosidl_typesupport_fastrtps_c_native.so" }}
+,{ "pid":12345, "tid":12, "ts":1739975903456799, "dur":65, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libtest_msgs_w_strings__rosidl_typesupport_introspection_c_native.so" }}
+,{ "pid":12345, "tid":12, "ts":1739975903456878, "dur":120, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739975903457004, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739975903457069, "dur":52, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libsensor_msgs_nav_sat_fix__rosidl_typesupport_fastrtps_c_native.so" }}
+,{ "pid":12345, "tid":12, "ts":1739975903457150, "dur":59, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739975903457224, "dur":69, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739975903457309, "dur":53, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739975903457399, "dur":172, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libstd_msgs_multi_array_layout__rosidl_typesupport_introspection_c_native.so" }}
+,{ "pid":12345, "tid":12, "ts":1739975903457746, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/angel/UnityEjecutable/AN5interfaz_Data/Plugins/libtest_msgs_defaults__rosidl_typesupport_introspection_c_native.so" }}
+,{ "pid":12345, "tid":12, "ts":1739975903457859, "dur":69866, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739975903531263, "dur":374, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 7282, "tid": 146, "ts": 1739975903535183, "dur": 14, "ph": "X", "name": "Wait for external events", "args": {"First to finish": "backend1.traceevents"} },
+{ "pid": 7282, "tid": 146, "ts": 1739975903535214, "dur": 585, "ph": "X", "name": "backend1.traceevents", "args": {} },
+{ "pid": 7282, "tid": 146, "ts": 1739975903533617, "dur": 2224, "ph": "X", "name": "Write chrome-trace events", "args": {} },

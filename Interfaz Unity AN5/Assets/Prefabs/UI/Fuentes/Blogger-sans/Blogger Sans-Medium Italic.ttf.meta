@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: bd6afe26250f291d486a447ae8ac45c8
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Blogger Sans
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: d23b2c72751da6923989d4ff69f0d9db, type: 3}
+  - {fileID: 12800000, guid: 1ac729391ee14c5db92f63759824c1d7, type: 3}
+  - {fileID: 12800000, guid: 953f668bd2d7b35ff825c9644f583e67, type: 3}
+  - {fileID: 12800000, guid: 1c1fcdd11f10f15b0a52d3a58305ec24, type: 3}
+  - {fileID: 12800000, guid: 3d894ff83100b60fd8791736ac5c5c63, type: 3}
+  - {fileID: 12800000, guid: a4c4099f0449c67d88ca0c371ab46691, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

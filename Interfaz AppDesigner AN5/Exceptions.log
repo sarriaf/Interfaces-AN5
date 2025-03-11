@@ -1,0 +1,407 @@
+
+
+08-Feb-2025 09:54:57 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error due to multiple causes.
+        Undefined function 'Cinematica_inversa_FR5' for input arguments of type 'double'.
+        Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>' while evaluating expression.
+
+08-Feb-2025 09:54:59 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error due to multiple causes.
+        Undefined function 'Cinematica_inversa_FR5' for input arguments of type 'double'.
+        Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>' while evaluating expression.
+
+08-Feb-2025 09:55:04 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error due to multiple causes.
+        Undefined function 'Cinematica_inversa_FR5' for input arguments of type 'double'.
+        Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>' while evaluating expression.
+
+08-Feb-2025 09:55:23 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error due to multiple causes.
+        Undefined function 'Cinematica_inversa_FR5' for input arguments of type 'double'.
+        Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>' while evaluating expression.
+
+08-Feb-2025 09:55:37 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error due to multiple causes.
+        Undefined function 'Cinematica_inversa_FR5' for input arguments of type 'double'.
+        Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>' while evaluating expression.
+
+08-Feb-2025 09:55:46 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error due to multiple causes.
+        Undefined function 'Cinematica_inversa_FR5' for input arguments of type 'double'.
+        Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>' while evaluating expression.
+
+08-Feb-2025 09:56:26 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error due to multiple causes.
+        Undefined function 'Cinematica_inversa_FR5' for input arguments of type 'double'.
+        Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>' while evaluating expression.
+
+10-Feb-2025 08:36:39 Error using simulink.Simulation/start
+Error evaluating expression 'Tfinal' for 'StopTime' specified in the
+Configuration Parameters dialog for block diagram 'simulador_trayectorias_AN5'.
+Error in simulink.ui.control.SimulationControls/startPauseContinueButtonPushed
+Error in simulink.ui.control.SimulationControls>@(o,e)obj.startPauseContinueButtonPushed()
+Caused by:
+    Error using simulink.sim.internal.SimControlNormalAccel/initializeImpl
+    Unrecognized function or variable 'Tfinal'.
+    
+    Error in simulink.Simulation/initialize
+    
+    Error in simulink.Simulation/start
+    
+    Error in simulink.ui.control.SimulationControls/startPauseContinueButtonPushed
+    
+    Error in simulink.ui.control.SimulationControls>@(o,e)obj.startPauseContinueButtonPushed()
+        Error using simulink.sim.internal.SimControlNormalAccel/initializeImpl
+        Variable 'Tfinal' has been deleted from base workspace.
+        
+        Error in simulink.Simulation/initialize
+        
+        Error in simulink.Simulation/start
+        
+        Error in simulink.ui.control.SimulationControls/startPauseContinueButtonPushed
+        
+        Error in simulink.ui.control.SimulationControls>@(o,e)obj.startPauseContinueButtonPushed()
+        Suggested Actions:
+            • Load a file into base workspace. - Fix
+            • Create a new variable. - Fix
+
+10-Feb-2025 08:36:47 Error using simulink.Simulation/start
+Error evaluating expression 'Tfinal' for 'StopTime' specified in the
+Configuration Parameters dialog for block diagram 'simulador_trayectorias_AN5'.
+Error in simulink.ui.control.SimulationControls/startPauseContinueButtonPushed
+Error in simulink.ui.control.SimulationControls>@(o,e)obj.startPauseContinueButtonPushed()
+Caused by:
+    Error using simulink.sim.internal.SimControlNormalAccel/initializeImpl
+    Unrecognized function or variable 'Tfinal'.
+    
+    Error in simulink.Simulation/initialize
+    
+    Error in simulink.Simulation/start
+    
+    Error in simulink.ui.control.SimulationControls/startPauseContinueButtonPushed
+    
+    Error in simulink.ui.control.SimulationControls>@(o,e)obj.startPauseContinueButtonPushed()
+        Error using simulink.sim.internal.SimControlNormalAccel/initializeImpl
+        Variable 'Tfinal' has been deleted from base workspace.
+        
+        Error in simulink.Simulation/initialize
+        
+        Error in simulink.Simulation/start
+        
+        Error in simulink.ui.control.SimulationControls/startPauseContinueButtonPushed
+        
+        Error in simulink.ui.control.SimulationControls>@(o,e)obj.startPauseContinueButtonPushed()
+        Suggested Actions:
+            • Load a file into base workspace. - Fix
+            • Create a new variable. - Fix
+
+10-Feb-2025 08:37:04 Error using simulink.Simulation/start
+Error evaluating expression 'Tfinal' for 'StopTime' specified in the
+Configuration Parameters dialog for block diagram 'simulador_trayectorias_AN5'.
+Error in simulink.ui.control.SimulationControls/startPauseContinueButtonPushed
+Error in simulink.ui.control.SimulationControls>@(o,e)obj.startPauseContinueButtonPushed()
+Caused by:
+    Error using simulink.sim.internal.SimControlNormalAccel/initializeImpl
+    Unrecognized function or variable 'Tfinal'.
+    
+    Error in simulink.Simulation/initialize
+    
+    Error in simulink.Simulation/start
+    
+    Error in simulink.ui.control.SimulationControls/startPauseContinueButtonPushed
+    
+    Error in simulink.ui.control.SimulationControls>@(o,e)obj.startPauseContinueButtonPushed()
+        Error using simulink.sim.internal.SimControlNormalAccel/initializeImpl
+        Variable 'Tfinal' has been deleted from base workspace.
+        
+        Error in simulink.Simulation/initialize
+        
+        Error in simulink.Simulation/start
+        
+        Error in simulink.ui.control.SimulationControls/startPauseContinueButtonPushed
+        
+        Error in simulink.ui.control.SimulationControls>@(o,e)obj.startPauseContinueButtonPushed()
+        Suggested Actions:
+            • Load a file into base workspace. - Fix
+            • Create a new variable. - Fix
+
+10-Feb-2025 08:37:09 Error using simulink.Simulation/start
+Error evaluating expression 'Tfinal' for 'StopTime' specified in the
+Configuration Parameters dialog for block diagram 'simulador_trayectorias_AN5'.
+Error in simulink.ui.control.SimulationControls/startPauseContinueButtonPushed
+Error in simulink.ui.control.SimulationControls>@(o,e)obj.startPauseContinueButtonPushed()
+Caused by:
+    Error using simulink.sim.internal.SimControlNormalAccel/initializeImpl
+    Unrecognized function or variable 'Tfinal'.
+    
+    Error in simulink.Simulation/initialize
+    
+    Error in simulink.Simulation/start
+    
+    Error in simulink.ui.control.SimulationControls/startPauseContinueButtonPushed
+    
+    Error in simulink.ui.control.SimulationControls>@(o,e)obj.startPauseContinueButtonPushed()
+        Error using simulink.sim.internal.SimControlNormalAccel/initializeImpl
+        Variable 'Tfinal' has been deleted from base workspace.
+        
+        Error in simulink.Simulation/initialize
+        
+        Error in simulink.Simulation/start
+        
+        Error in simulink.ui.control.SimulationControls/startPauseContinueButtonPushed
+        
+        Error in simulink.ui.control.SimulationControls>@(o,e)obj.startPauseContinueButtonPushed()
+        Suggested Actions:
+            • Load a file into base workspace. - Fix
+            • Create a new variable. - Fix
+
+10-Feb-2025 08:37:16 Error using simulink.Simulation/start
+Error evaluating expression 'Tfinal' for 'StopTime' specified in the
+Configuration Parameters dialog for block diagram 'simulador_trayectorias_AN5'.
+Error in simulink.ui.control.SimulationControls/startPauseContinueButtonPushed
+Error in simulink.ui.control.SimulationControls>@(o,e)obj.startPauseContinueButtonPushed()
+Caused by:
+    Error using simulink.sim.internal.SimControlNormalAccel/initializeImpl
+    Unrecognized function or variable 'Tfinal'.
+    
+    Error in simulink.Simulation/initialize
+    
+    Error in simulink.Simulation/start
+    
+    Error in simulink.ui.control.SimulationControls/startPauseContinueButtonPushed
+    
+    Error in simulink.ui.control.SimulationControls>@(o,e)obj.startPauseContinueButtonPushed()
+        Error using simulink.sim.internal.SimControlNormalAccel/initializeImpl
+        Variable 'Tfinal' has been deleted from base workspace.
+        
+        Error in simulink.Simulation/initialize
+        
+        Error in simulink.Simulation/start
+        
+        Error in simulink.ui.control.SimulationControls/startPauseContinueButtonPushed
+        
+        Error in simulink.ui.control.SimulationControls>@(o,e)obj.startPauseContinueButtonPushed()
+        Suggested Actions:
+            • Load a file into base workspace. - Fix
+            • Create a new variable. - Fix
+
+10-Feb-2025 20:39:49 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error due to multiple causes.
+        importrobot requires a Robotics_System_Toolbox license.
+        Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>' while evaluating expression.
+
+10-Feb-2025 20:39:53 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error due to multiple causes.
+        importrobot requires a Robotics_System_Toolbox license.
+        Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>' while evaluating expression.
+
+10-Feb-2025 20:40:07 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error due to multiple causes.
+        importrobot requires a Robotics_System_Toolbox license.
+        Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>' while evaluating expression.
+
+10-Feb-2025 20:40:12 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error due to multiple causes.
+        importrobot requires a Robotics_System_Toolbox license.
+        Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>' while evaluating expression.
+
+10-Feb-2025 20:40:22 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error due to multiple causes.
+        importrobot requires a Robotics_System_Toolbox license.
+        Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>' while evaluating expression.
+
+10-Feb-2025 20:40:28 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error due to multiple causes.
+        importrobot requires a Robotics_System_Toolbox license.
+        Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>' while evaluating expression.
+
+10-Feb-2025 20:40:32 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error due to multiple causes.
+        importrobot requires a Robotics_System_Toolbox license.
+        Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>' while evaluating expression.
+
+10-Feb-2025 20:40:42 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error due to multiple causes.
+        importrobot requires a Robotics_System_Toolbox license.
+        Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>' while evaluating expression.
+
+10-Feb-2025 20:40:47 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error due to multiple causes.
+        importrobot requires a Robotics_System_Toolbox license.
+        Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>' while evaluating expression.
+
+10-Feb-2025 21:16:45 Error using simulink.Simulation/start
+Error evaluating expression 'Tfinal' for 'StopTime' specified in the Configuration Parameters dialog for block diagram
+'<a href="matlab:open_system ('simulador_trayectorias_AN5')">simulador_trayectorias_AN5</a>'.
+Error in simulink.ui.control.SimulationControls/startPauseContinueButtonPushed
+Error in simulink.ui.control.SimulationControls>@(o,e)obj.startPauseContinueButtonPushed()
+Caused by:
+    Error using simulink.sim.internal.SimControlNormalAccel/initializeImpl
+    Unrecognized function or variable 'Tfinal'.
+    
+    Error in simulink.Simulation/initialize
+    
+    Error in simulink.Simulation/start
+    
+    Error in simulink.ui.control.SimulationControls/startPauseContinueButtonPushed
+    
+    Error in simulink.ui.control.SimulationControls>@(o,e)obj.startPauseContinueButtonPushed()
+        Error using simulink.sim.internal.SimControlNormalAccel/initializeImpl
+        Variable 'Tfinal' has been deleted from base workspace.
+        
+        Error in simulink.Simulation/initialize
+        
+        Error in simulink.Simulation/start
+        
+        Error in simulink.ui.control.SimulationControls/startPauseContinueButtonPushed
+        
+        Error in simulink.ui.control.SimulationControls>@(o,e)obj.startPauseContinueButtonPushed()
+        Suggested Actions:
+            • Load a file into base workspace. - <a href="matlab:slprivate('robustVarRefHotlink_cb', 'loadFile', 'simulador_trayectorias_AN5', 'Tfinal')">Fix</a>
+            • Create a new variable. - <a href="matlab:slprivate('robustVarRefHotlink_cb', 'createEntry', 'Tfinal', 'simulador_trayectorias_AN5', 'base workspace', 'normal', '', '', ' ')">Fix</a>
+
+10-Feb-2025 22:01:10 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error due to multiple causes.
+        importrobot requires a Robotics_System_Toolbox license.
+        Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>' while evaluating expression.
+
+10-Feb-2025 22:57:17 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>'. Evaluation of expression resulted in an invalid output. Only finite double vector or matrix outputs are supported
+
+10-Feb-2025 22:57:50 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>'. Evaluation of expression resulted in an invalid output. Only finite double vector or matrix outputs are supported
+
+10-Feb-2025 23:00:59 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>'. Evaluation of expression resulted in an invalid output. Only finite double vector or matrix outputs are supported
+
+10-Feb-2025 23:01:33 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>'. Evaluation of expression resulted in an invalid output. Only finite double vector or matrix outputs are supported
+
+10-Feb-2025 23:02:09 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>'. Evaluation of expression resulted in an invalid output. Only finite double vector or matrix outputs are supported
+
+10-Feb-2025 23:02:15 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>'. Evaluation of expression resulted in an invalid output. Only finite double vector or matrix outputs are supported
+
+10-Feb-2025 23:03:42 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>'. Evaluation of expression resulted in an invalid output. Only finite double vector or matrix outputs are supported
+
+10-Feb-2025 23:03:49 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>'. Evaluation of expression resulted in an invalid output. Only finite double vector or matrix outputs are supported
+
+10-Feb-2025 23:44:37 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>'. Evaluation of expression resulted in an invalid output. Only finite double vector or matrix outputs are supported
+
+10-Feb-2025 23:45:07 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>'. Evaluation of expression resulted in an invalid output. Only finite double vector or matrix outputs are supported
+
+10-Feb-2025 23:45:37 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>'. Evaluation of expression resulted in an invalid output. Only finite double vector or matrix outputs are supported
+
+10-Feb-2025 23:46:05 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>'. Evaluation of expression resulted in an invalid output. Only finite double vector or matrix outputs are supported
+
+10-Feb-2025 23:46:12 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>'. Evaluation of expression resulted in an invalid output. Only finite double vector or matrix outputs are supported
+
+10-Feb-2025 23:46:52 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>'. Evaluation of expression resulted in an invalid output. Only finite double vector or matrix outputs are supported
+
+10-Feb-2025 23:47:14 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>'. Evaluation of expression resulted in an invalid output. Only finite double vector or matrix outputs are supported
+
+10-Feb-2025 23:47:26 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>'. Evaluation of expression resulted in an invalid output. Only finite double vector or matrix outputs are supported
+
+10-Feb-2025 23:47:28 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>'. Evaluation of expression resulted in an invalid output. Only finite double vector or matrix outputs are supported
+
+10-Feb-2025 23:48:34 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>'. Evaluation of expression resulted in an invalid output. Only finite double vector or matrix outputs are supported
+
+11-Feb-2025 11:18:41 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Index exceeds array dimensions. Index value 6 exceeds valid range [1-5] for array 'data'.
+	Error in '<a href="matlab:hilite_system('simulador_trayectorias_AN5/MATLAB Function')">simulador_trayectorias_AN5/MATLAB Function</a>' (<a href="matlab:sf('Open', sfprivate('block2chart', 'simulador_trayectorias_AN5/MATLAB Function'), 26, -2);">line 27</a>)
+		rotaciones = data(:, 4:6);     
+
+11-Feb-2025 11:18:43 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Index exceeds array dimensions. Index value 6 exceeds valid range [1-5] for array 'data'.
+	Error in '<a href="matlab:hilite_system('simulador_trayectorias_AN5/MATLAB Function')">simulador_trayectorias_AN5/MATLAB Function</a>' (<a href="matlab:sf('Open', sfprivate('block2chart', 'simulador_trayectorias_AN5/MATLAB Function'), 26, -2);">line 27</a>)
+		rotaciones = data(:, 4:6);     
+
+11-Feb-2025 11:22:50 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>'. Evaluation of expression resulted in an invalid output. Only finite double vector or matrix outputs are supported
+
+11-Feb-2025 11:32:42 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>'. Evaluation of expression resulted in an invalid output. Only finite double vector or matrix outputs are supported
+
+11-Feb-2025 11:37:01 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>'. Evaluation of expression resulted in an invalid output. Only finite double vector or matrix outputs are supported
+
+11-Feb-2025 11:38:21 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>'. Evaluation of expression resulted in an invalid output. Only finite double vector or matrix outputs are supported
+
+11-Feb-2025 11:41:25 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>'. Evaluation of expression resulted in an invalid output. Only finite double vector or matrix outputs are supported
+
+11-Feb-2025 11:42:30 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>'. Evaluation of expression resulted in an invalid output. Only finite double vector or matrix outputs are supported
+
+11-Feb-2025 11:47:10 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>'. Evaluation of expression resulted in an invalid output. Only finite double vector or matrix outputs are supported
+
+11-Feb-2025 11:49:22 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>'. Evaluation of expression resulted in an invalid output. Only finite double vector or matrix outputs are supported
+
+11-Feb-2025 11:49:24 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>'. Evaluation of expression resulted in an invalid output. Only finite double vector or matrix outputs are supported
+
+11-Feb-2025 11:49:27 An error occurred during simulation and the simulation was terminated
+Caused by:
+    Error in '<a href="matlab:open_and_hilite_hyperlink ('simulador_trayectorias_AN5/INVERSE KINEMATICS','error')">simulador_trayectorias_AN5/INVERSE KINEMATICS</a>'. Evaluation of expression resulted in an invalid output. Only finite double vector or matrix outputs are supported

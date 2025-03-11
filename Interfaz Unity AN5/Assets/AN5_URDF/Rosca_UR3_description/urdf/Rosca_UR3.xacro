@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<robot name="Rosca_UR3" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find Rosca_UR3_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find Rosca_UR3_description)/urdf/Rosca_UR3.trans" />
+<xacro:include filename="$(find Rosca_UR3_description)/urdf/Rosca_UR3.gazebo" />
+<link name="base_link">
+  <inertial>
+    <origin xyz="-8.863797352811024e-05 8.924358068701335e-05 0.004939305751895978" rpy="0 0 0"/>
+    <mass value="0.24684642771317108"/>
+    <inertia ixx="7.4e-05" iyy="7.4e-05" izz="0.000141" ixy="0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Rosca_UR3_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Rosca_UR3_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+</robot>
