@@ -13,10 +13,7 @@ Antes de comenzar, asegúrate de contar con el siguiente entorno de desarrollo i
 - 🎮 **Unity 2022.3.42f1** o superior
 
 ---
----
----
----
----
+
 
 ## 📥 Clonación del Repositorio
 
@@ -151,9 +148,7 @@ sudo apt install ros-humble-rosbridge-server
 ```
 
 ---
----
----
----
+
 
 ### 🎥 Video tutorial del proceso de configuración
 
@@ -162,9 +157,7 @@ Para una guía visual completa, puedes consultar el siguiente video donde se mue
 🔗 [Ver video del paso a paso](#) <!-- Reemplaza '#' con tu enlace -->
 
 ---
----
----
----
+
 
 ### ▶️ Ejecución del sistema
 
