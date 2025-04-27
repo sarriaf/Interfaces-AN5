@@ -154,7 +154,7 @@ sudo apt install ros-humble-rosbridge-server
 
 Para una guía visual completa, puedes consultar el siguiente video donde se muestra el paso a paso de todas las configuraciones mencionadas en este documento:
 
-🔗 [Ver video del paso a paso](#) <!-- Reemplaza '#' con tu enlace -->
+🔗 [Ver video del paso a paso](https://www.youtube.com/watch?v=WjsGauTAmnQ) <!-- Reemplaza '#' con tu enlace -->
 
 ---
 
