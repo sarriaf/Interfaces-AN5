@@ -154,7 +154,7 @@ sudo apt install ros-humble-rosbridge-server
 
 Para una guía visual completa, puedes consultar el siguiente video donde se muestra el paso a paso de todas las configuraciones mencionadas en este documento:
 
-🔗 [Ver video del paso a paso](https://www.youtube.com/watch?v=WjsGauTAmnQ) <!-- Reemplaza '#' con tu enlace -->
+🔗 [Ver video del paso a paso](https://www.youtube.com/watch?v=WjsGauTAmnQ) 
 
 ---
 
@@ -163,6 +163,10 @@ Para una guía visual completa, puedes consultar el siguiente video donde se mue
 
 Una vez realizada toda la configuración, puedes seguir las instrucciones del siguiente video para ejecutar correctamente el sistema completo (Unity + AppDesigner + ROS 2):
 
-🔗 [Ver video de ejecución](https://www.youtube.com/watch?v=qW5HY1y-aKo) <!-- Reemplaza '#' con tu enlace -->
+🔗 [Ver video de ejecución](https://www.youtube.com/watch?v=qW5HY1y-aKo) 
+
+Adicionalmente, se dispone de un manual de usuario para la ejecución de las diferentes interfáces del sistema.
+
+🔗 [Manual de usuario](https://drive.google.com/drive/folders/17CdoxKMeXHBYaew6waLlHy14Frad48GM) 
 
 ---
