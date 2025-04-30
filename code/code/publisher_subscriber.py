@@ -68,7 +68,7 @@ class RobotPublisher(Node):
         self.tcp_server_thread = threading.Thread(target=self.tcp_server.start_server)
         self.tcp_server_thread.start()
         # Intervalo de tiempo para ejecutar la función timer_callback
-        timer_period = 0.15  # seconds
+        timer_period = 0.02  # seconds
         self.timer = self.create_timer(timer_period, self.timer_callback)
         # Crea un cliente para el servicio de comandos ROSCmdInterface
         self.client = self.create_client(ROSCmdInterface, '/FR_ROS_API_service')
@@ -202,7 +202,7 @@ class TCPServer:
                         client_socket.sendall(f"Cartesian Position: {cart_data}\n".encode('utf-8'))
 
                     # Espera un breve periodo antes de enviar nuevamente
-                    time.sleep(0.15)
+                    time.sleep(0.02)
 
                 except Exception as e:
                     # Imprime un mensaje de error en caso de excepción (en español)
