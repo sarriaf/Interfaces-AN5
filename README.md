@@ -170,5 +170,5 @@ Adicionalmente, se dispone de un manual de usuario para la ejecución de las dif
 🔗 [Manual de usuario](https://drive.google.com/drive/folders/17CdoxKMeXHBYaew6waLlHy14Frad48GM) 
 
 ---
-# Segundo proyecto, Interfaz multi robot UR cotectada con ROS2.
+# Segundo proyecto, Interfaz multi robot UR conectado con ROS2.
 🔗 [Enlace del proyecto]https://gitlab.com/ur-interfaz/multi-ur-interfaz
