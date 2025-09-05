@@ -168,7 +168,10 @@ Una vez realizada toda la configuración, puedes seguir las instrucciones del si
 Adicionalmente, se dispone de un manual de usuario para la ejecución de las diferentes interfáces del sistema.
 
 🔗 [Manual de usuario](https://drive.google.com/drive/folders/17CdoxKMeXHBYaew6waLlHy14Frad48GM) 
+<img width="685" height="520" alt="image" src="https://github.com/user-attachments/assets/545b7bf1-abf6-43ca-9eb5-6b6365b278d7" />
+<img width="764" height="433" alt="image" src="https://github.com/user-attachments/assets/7049d976-44cb-48cd-94b5-075688ec0402" />
 
 ---
 # Segundo proyecto: Interfaz multi robot UR conectado con ROS2.
-🔗 [Enlace del proyecto]https://gitlab.com/ur-interfaz/multi-ur-interfaz
+🔗 [Enlace del proyecto](https://gitlab.com/ur-interfaz/multi-ur-interfaz)
+<img width="899" height="321" alt="image" src="https://github.com/user-attachments/assets/dad50e00-9bac-4345-9a3f-a1964e4523d6" />
