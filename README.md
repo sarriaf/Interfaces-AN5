@@ -13,7 +13,16 @@ Antes de comenzar, asegúrate de contar con el siguiente entorno de desarrollo i
 - 🎮 **Unity 2022.3.42f1** o superior
 
 ---
+## ⚠️ Advertencia importante
 
+Después de instalar *ROS 2 Humble Hawksbill*, es necesario configurar el sourcing automático para que los comandos de ROS 2 funcionen en cualquier nueva terminal.  
+Si no se hace, comandos como ros2 o colcon build devolverán errores porque las variables de entorno de ROS 2 no estarán cargadas.
+
+Abre una nueva terminal y ejecuta el siguiente comando:
+
+```bash
+echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+source ~/.bashrc
 
 ## 📥 Clonación del Repositorio
 
