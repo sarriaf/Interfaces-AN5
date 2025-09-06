@@ -23,7 +23,7 @@ Abre una nueva terminal y ejecuta el siguiente comando:
 ```bash
 echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 source ~/.bashrc
-
+```
 ## 📥 Clonación del Repositorio
 
 Para comenzar, clona este repositorio en tu máquina local ejecutando el siguiente comando:
